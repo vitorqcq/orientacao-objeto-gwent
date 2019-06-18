@@ -203,11 +203,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton27">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="250" y="0" width="110" height="110"/>
@@ -215,11 +210,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton91">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="0" width="110" height="110"/>
@@ -227,11 +217,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton92">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="0" width="110" height="110"/>
@@ -239,11 +224,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton93">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="610" y="0" width="110" height="110"/>
@@ -251,11 +231,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton94">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="0" width="110" height="110"/>
@@ -263,11 +238,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton95">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="370" y="0" width="110" height="110"/>
@@ -275,11 +245,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton96">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="850" y="0" width="110" height="110"/>
@@ -287,11 +252,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton97">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="0" width="110" height="110"/>
@@ -299,11 +259,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton98">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="110" width="110" height="110"/>
@@ -311,11 +266,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton99">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="110" width="110" height="110"/>
@@ -323,11 +273,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton100">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="250" y="110" width="110" height="110"/>
@@ -335,11 +280,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton101">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="370" y="110" width="110" height="110"/>
@@ -347,11 +287,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton102">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="110" width="110" height="110"/>
@@ -359,11 +294,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton103">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="610" y="110" width="110" height="110"/>
@@ -371,11 +301,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton104">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="110" width="110" height="110"/>
@@ -383,11 +308,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton105">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="850" y="110" width="110" height="110"/>
@@ -395,11 +315,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton106">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="610" y="220" width="110" height="110"/>
@@ -407,11 +322,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton107">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="220" width="110" height="110"/>
@@ -419,11 +329,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton108">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="370" y="220" width="110" height="110"/>
@@ -431,11 +336,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton109">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="250" y="220" width="110" height="110"/>
@@ -443,11 +343,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton110">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="220" width="110" height="110"/>
@@ -455,11 +350,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton111">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="220" width="110" height="110"/>
@@ -467,11 +357,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton112">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="850" y="220" width="110" height="110"/>
@@ -479,11 +364,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton113">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="220" width="110" height="110"/>
@@ -566,11 +446,6 @@
       </Layout>
       <SubComponents>
         <Component class="javax.swing.JButton" name="jButton140">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="260" y="0" width="110" height="110"/>
@@ -578,11 +453,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton142">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="500" y="0" width="110" height="110"/>
@@ -590,11 +460,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton144">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="740" y="0" width="110" height="110"/>
@@ -602,11 +467,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton139">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="140" y="0" width="110" height="110"/>
@@ -614,11 +474,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton143">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="620" y="0" width="110" height="110"/>
@@ -626,11 +481,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton145">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="860" y="0" width="110" height="110"/>
@@ -638,11 +488,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton138">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="20" y="0" width="110" height="110"/>
@@ -650,11 +495,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton141">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="380" y="0" width="110" height="110"/>
@@ -662,11 +502,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton146">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="1100" y="0" width="110" height="110"/>
@@ -674,11 +509,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton147">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="980" y="0" width="110" height="110"/>
@@ -734,11 +564,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton114">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="610" y="110" width="110" height="110"/>
@@ -746,11 +571,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton115">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="110" width="110" height="110"/>
@@ -758,11 +578,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton116">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="370" y="110" width="110" height="110"/>
@@ -770,11 +585,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton117">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="250" y="110" width="110" height="110"/>
@@ -782,11 +592,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton118">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="110" width="110" height="110"/>
@@ -794,11 +599,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton119">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="110" width="110" height="110"/>
@@ -806,11 +606,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton120">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="850" y="110" width="110" height="110"/>
@@ -818,11 +613,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton121">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="110" width="110" height="110"/>
@@ -830,11 +620,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton122">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\gerald.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="250" y="0" width="110" height="110"/>
@@ -842,11 +627,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton123">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="0" width="110" height="110"/>
@@ -854,11 +634,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton124">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="610" y="0" width="110" height="110"/>
@@ -866,11 +641,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton125">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="850" y="0" width="110" height="110"/>
@@ -878,11 +648,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton126">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="370" y="0" width="110" height="110"/>
@@ -890,11 +655,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton127">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="0" width="110" height="110"/>
@@ -902,11 +662,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton128">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="0" width="110" height="110"/>
@@ -914,11 +669,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton129">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\gerald.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="0" width="110" height="110"/>
@@ -926,11 +676,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton130">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="250" y="220" width="110" height="110"/>
@@ -938,11 +683,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton131">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="130" y="220" width="110" height="110"/>
@@ -950,11 +690,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton132">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="610" y="220" width="110" height="110"/>
@@ -962,11 +697,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton133">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="850" y="220" width="110" height="110"/>
@@ -974,11 +704,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton134">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="370" y="220" width="110" height="110"/>
@@ -986,11 +711,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton135">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="490" y="220" width="110" height="110"/>
@@ -998,11 +718,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton136">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="730" y="220" width="110" height="110"/>
@@ -1010,11 +725,6 @@
           </Constraints>
         </Component>
         <Component class="javax.swing.JButton" name="jButton137">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\emptyCard.png"/>
-            </Property>
-          </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
               <AbsoluteConstraints x="10" y="220" width="110" height="110"/>
@@ -1026,7 +736,7 @@
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\gwentGame\src\main\java\images\gameBackground.png"/>
+          <Image iconType="2" name="C:\Users\vitor\Documents\NetBeansProjects\orientacao-objeto-gwent\orientacao-objeto-gwent\gwentGame\src\main\java\images\gameBackground.png"/>
         </Property>
       </Properties>
       <Constraints>
