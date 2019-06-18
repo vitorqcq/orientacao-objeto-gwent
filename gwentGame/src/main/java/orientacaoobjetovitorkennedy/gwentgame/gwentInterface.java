@@ -164,100 +164,52 @@ public class gwentInterface extends javax.swing.JFrame {
         jSeparator2.setBounds(0, 220, 1020, 10);
         jPanel9.add(jSeparator3);
         jSeparator3.setBounds(0, 110, 1020, 10);
-
-        jButton27.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton27);
         jButton27.setBounds(250, 0, 110, 110);
-
-        jButton91.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton91);
         jButton91.setBounds(10, 0, 110, 110);
-
-        jButton92.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton92);
         jButton92.setBounds(130, 0, 110, 110);
-
-        jButton93.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton93);
         jButton93.setBounds(610, 0, 110, 110);
-
-        jButton94.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton94);
         jButton94.setBounds(490, 0, 110, 110);
-
-        jButton95.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton95);
         jButton95.setBounds(370, 0, 110, 110);
-
-        jButton96.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton96);
         jButton96.setBounds(850, 0, 110, 110);
-
-        jButton97.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton97);
         jButton97.setBounds(730, 0, 110, 110);
-
-        jButton98.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton98);
         jButton98.setBounds(10, 110, 110, 110);
-
-        jButton99.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton99);
         jButton99.setBounds(130, 110, 110, 110);
-
-        jButton100.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton100);
         jButton100.setBounds(250, 110, 110, 110);
-
-        jButton101.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton101);
         jButton101.setBounds(370, 110, 110, 110);
-
-        jButton102.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton102);
         jButton102.setBounds(490, 110, 110, 110);
-
-        jButton103.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton103);
         jButton103.setBounds(610, 110, 110, 110);
-
-        jButton104.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton104);
         jButton104.setBounds(730, 110, 110, 110);
-
-        jButton105.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton105);
         jButton105.setBounds(850, 110, 110, 110);
-
-        jButton106.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton106);
         jButton106.setBounds(610, 220, 110, 110);
-
-        jButton107.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton107);
         jButton107.setBounds(730, 220, 110, 110);
-
-        jButton108.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton108);
         jButton108.setBounds(370, 220, 110, 110);
-
-        jButton109.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton109);
         jButton109.setBounds(250, 220, 110, 110);
-
-        jButton110.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton110);
         jButton110.setBounds(10, 220, 110, 110);
-
-        jButton111.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton111);
         jButton111.setBounds(130, 220, 110, 110);
-
-        jButton112.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton112);
         jButton112.setBounds(850, 220, 110, 110);
-
-        jButton113.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(jButton113);
         jButton113.setBounds(490, 220, 110, 110);
 
@@ -287,44 +239,24 @@ public class gwentInterface extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel4.setLayout(null);
-
-        jButton140.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton140);
         jButton140.setBounds(260, 0, 110, 110);
-
-        jButton142.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton142);
         jButton142.setBounds(500, 0, 110, 110);
-
-        jButton144.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton144);
         jButton144.setBounds(740, 0, 110, 110);
-
-        jButton139.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton139);
         jButton139.setBounds(140, 0, 110, 110);
-
-        jButton143.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton143);
         jButton143.setBounds(620, 0, 110, 110);
-
-        jButton145.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton145);
         jButton145.setBounds(860, 0, 110, 110);
-
-        jButton138.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton138);
         jButton138.setBounds(20, 0, 110, 110);
-
-        jButton141.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton141);
         jButton141.setBounds(380, 0, 110, 110);
-
-        jButton146.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton146);
         jButton146.setBounds(1100, 0, 110, 110);
-
-        jButton147.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(jButton147);
         jButton147.setBounds(980, 0, 110, 110);
 
@@ -347,107 +279,59 @@ public class gwentInterface extends javax.swing.JFrame {
         jSeparator1.setBounds(0, 110, 1020, 10);
         jPanel2.add(jSeparator4);
         jSeparator4.setBounds(0, 220, 1020, 10);
-
-        jButton114.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton114);
         jButton114.setBounds(610, 110, 110, 110);
-
-        jButton115.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton115);
         jButton115.setBounds(730, 110, 110, 110);
-
-        jButton116.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton116);
         jButton116.setBounds(370, 110, 110, 110);
-
-        jButton117.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton117);
         jButton117.setBounds(250, 110, 110, 110);
-
-        jButton118.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton118);
         jButton118.setBounds(10, 110, 110, 110);
-
-        jButton119.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton119);
         jButton119.setBounds(130, 110, 110, 110);
-
-        jButton120.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton120);
         jButton120.setBounds(850, 110, 110, 110);
-
-        jButton121.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton121);
         jButton121.setBounds(490, 110, 110, 110);
-
-        jButton122.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\gerald.png")); // NOI18N
         jPanel2.add(jButton122);
         jButton122.setBounds(250, 0, 110, 110);
-
-        jButton123.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton123);
         jButton123.setBounds(130, 0, 110, 110);
-
-        jButton124.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton124);
         jButton124.setBounds(610, 0, 110, 110);
-
-        jButton125.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton125);
         jButton125.setBounds(850, 0, 110, 110);
-
-        jButton126.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton126);
         jButton126.setBounds(370, 0, 110, 110);
-
-        jButton127.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton127);
         jButton127.setBounds(490, 0, 110, 110);
-
-        jButton128.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton128);
         jButton128.setBounds(730, 0, 110, 110);
-
-        jButton129.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\gerald.png")); // NOI18N
         jPanel2.add(jButton129);
         jButton129.setBounds(10, 0, 110, 110);
-
-        jButton130.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton130);
         jButton130.setBounds(250, 220, 110, 110);
-
-        jButton131.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton131);
         jButton131.setBounds(130, 220, 110, 110);
-
-        jButton132.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton132);
         jButton132.setBounds(610, 220, 110, 110);
-
-        jButton133.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton133);
         jButton133.setBounds(850, 220, 110, 110);
-
-        jButton134.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton134);
         jButton134.setBounds(370, 220, 110, 110);
-
-        jButton135.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton135);
         jButton135.setBounds(490, 220, 110, 110);
-
-        jButton136.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton136);
         jButton136.setBounds(730, 220, 110, 110);
-
-        jButton137.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(jButton137);
         jButton137.setBounds(10, 220, 110, 110);
 
         getContentPane().add(jPanel2);
         jPanel2.setBounds(700, 450, 970, 340);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
         getContentPane().add(jLabel7);
         jLabel7.setBounds(0, 10, 1930, 990);
 
