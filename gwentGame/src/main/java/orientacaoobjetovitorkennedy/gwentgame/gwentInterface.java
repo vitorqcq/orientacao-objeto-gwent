@@ -2,12 +2,28 @@
 
 package orientacaoobjetovitorkennedy.gwentgame;
 
+import java.util.ArrayList;
+import javax.swing.Icon;
+import javax.swing.JButton;
+
 
 
 //@author vitor and Kennedy
 
 public class gwentInterface extends javax.swing.JFrame {
-
+    Jogo jogo = new Jogo();
+    
+//Cartas Player 1
+    ArrayList<JButton> cartasP1curto  = new ArrayList<>();
+    ArrayList<JButton> cartasP1medio  = new ArrayList<>();
+    ArrayList<JButton> cartasP1longo  = new ArrayList<>();
+    ArrayList<JButton> cartaP1Esp = new ArrayList<>();
+    
+    //Cartas Player 2
+    ArrayList<JButton> cartasP2curto  = new ArrayList<>();
+    ArrayList<JButton> cartasP2medio  = new ArrayList<>();
+    ArrayList<JButton> cartasP2longo  = new ArrayList<>();
+    ArrayList<JButton> cartaP2Esp = new ArrayList<>();
    
     public gwentInterface() {
         initComponents();
@@ -32,130 +48,119 @@ public class gwentInterface extends javax.swing.JFrame {
         jPanel9 = new javax.swing.JPanel();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
-        jButton27 = new javax.swing.JButton();
-        jButton91 = new javax.swing.JButton();
-        jButton92 = new javax.swing.JButton();
-        jButton93 = new javax.swing.JButton();
-        jButton94 = new javax.swing.JButton();
-        jButton95 = new javax.swing.JButton();
-        jButton96 = new javax.swing.JButton();
-        jButton97 = new javax.swing.JButton();
-        jButton98 = new javax.swing.JButton();
-        jButton99 = new javax.swing.JButton();
-        jButton100 = new javax.swing.JButton();
-        jButton101 = new javax.swing.JButton();
-        jButton102 = new javax.swing.JButton();
-        jButton103 = new javax.swing.JButton();
-        jButton104 = new javax.swing.JButton();
-        jButton105 = new javax.swing.JButton();
-        jButton106 = new javax.swing.JButton();
-        jButton107 = new javax.swing.JButton();
-        jButton108 = new javax.swing.JButton();
-        jButton109 = new javax.swing.JButton();
-        jButton110 = new javax.swing.JButton();
-        jButton111 = new javax.swing.JButton();
-        jButton112 = new javax.swing.JButton();
-        jButton113 = new javax.swing.JButton();
+        p2c3 = new javax.swing.JButton();
+        p2c5 = new javax.swing.JButton();
+        p2c4 = new javax.swing.JButton();
+        p2c8 = new javax.swing.JButton();
+        p2c2 = new javax.swing.JButton();
+        p2c6 = new javax.swing.JButton();
+        p2c7 = new javax.swing.JButton();
+        p2c1 = new javax.swing.JButton();
+        p2m1 = new javax.swing.JButton();
+        p2m2 = new javax.swing.JButton();
+        p2m3 = new javax.swing.JButton();
+        p2m4 = new javax.swing.JButton();
+        p2m5 = new javax.swing.JButton();
+        p2m6 = new javax.swing.JButton();
+        p2m7 = new javax.swing.JButton();
+        p2m8 = new javax.swing.JButton();
+        p2l8 = new javax.swing.JButton();
+        p2l7 = new javax.swing.JButton();
+        p2l6 = new javax.swing.JButton();
+        p2l5 = new javax.swing.JButton();
+        p2l4 = new javax.swing.JButton();
+        p2l3 = new javax.swing.JButton();
+        p2l2 = new javax.swing.JButton();
+        p2l1 = new javax.swing.JButton();
         jLabel15 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
-        jButton140 = new javax.swing.JButton();
-        jButton142 = new javax.swing.JButton();
-        jButton144 = new javax.swing.JButton();
-        jButton139 = new javax.swing.JButton();
-        jButton143 = new javax.swing.JButton();
-        jButton145 = new javax.swing.JButton();
         jButton138 = new javax.swing.JButton();
-        jButton141 = new javax.swing.JButton();
-        jButton146 = new javax.swing.JButton();
-        jButton147 = new javax.swing.JButton();
+        jButton171 = new javax.swing.JButton();
+        jButton172 = new javax.swing.JButton();
+        jButton173 = new javax.swing.JButton();
+        jButton174 = new javax.swing.JButton();
+        jButton175 = new javax.swing.JButton();
+        jButton176 = new javax.swing.JButton();
+        jButton177 = new javax.swing.JButton();
+        jButton178 = new javax.swing.JButton();
+        jButton179 = new javax.swing.JButton();
         startButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator4 = new javax.swing.JSeparator();
-        jButton114 = new javax.swing.JButton();
-        jButton115 = new javax.swing.JButton();
-        jButton116 = new javax.swing.JButton();
-        jButton117 = new javax.swing.JButton();
-        jButton118 = new javax.swing.JButton();
-        jButton119 = new javax.swing.JButton();
-        jButton120 = new javax.swing.JButton();
-        jButton121 = new javax.swing.JButton();
-        jButton122 = new javax.swing.JButton();
-        jButton123 = new javax.swing.JButton();
-        jButton124 = new javax.swing.JButton();
-        jButton125 = new javax.swing.JButton();
-        jButton126 = new javax.swing.JButton();
-        jButton127 = new javax.swing.JButton();
-        jButton128 = new javax.swing.JButton();
-        jButton129 = new javax.swing.JButton();
-        jButton130 = new javax.swing.JButton();
-        jButton131 = new javax.swing.JButton();
-        jButton132 = new javax.swing.JButton();
-        jButton133 = new javax.swing.JButton();
-        jButton134 = new javax.swing.JButton();
-        jButton135 = new javax.swing.JButton();
-        jButton136 = new javax.swing.JButton();
-        jButton137 = new javax.swing.JButton();
+        p1c2 = new javax.swing.JButton();
+        p1c1 = new javax.swing.JButton();
+        p1c4 = new javax.swing.JButton();
+        p1c3 = new javax.swing.JButton();
+        p1c8 = new javax.swing.JButton();
+        p1c7 = new javax.swing.JButton();
+        p1c6 = new javax.swing.JButton();
+        p1c5 = new javax.swing.JButton();
+        p1m1 = new javax.swing.JButton();
+        p1m2 = new javax.swing.JButton();
+        p1m3 = new javax.swing.JButton();
+        p1m4 = new javax.swing.JButton();
+        p1m5 = new javax.swing.JButton();
+        p1m6 = new javax.swing.JButton();
+        p1m7 = new javax.swing.JButton();
+        p1m8 = new javax.swing.JButton();
+        p1l4 = new javax.swing.JButton();
+        p1l5 = new javax.swing.JButton();
+        p1l3 = new javax.swing.JButton();
+        p1l1 = new javax.swing.JButton();
+        p1l7 = new javax.swing.JButton();
+        p1l8 = new javax.swing.JButton();
+        p1l2 = new javax.swing.JButton();
+        p1l6 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(null);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setLayout(null);
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(2482, 0, 0, 1296);
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2482, 0, 0, 1296));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel1.setText("Player 2");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(260, 450, 80, 20);
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, 80, -1));
 
         Player1Name.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         Player1Name.setText("Player1");
-        getContentPane().add(Player1Name);
-        Player1Name.setBounds(250, 760, 80, 20);
+        getContentPane().add(Player1Name, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 760, 80, -1));
 
         jLabel4.setText("Descrition 2");
-        getContentPane().add(jLabel4);
-        jLabel4.setBounds(260, 470, 110, 20);
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 470, 110, -1));
 
         jLabel5.setText("Description 2");
-        getContentPane().add(jLabel5);
-        jLabel5.setBounds(250, 780, 110, 20);
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 780, 110, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel6.setText("20");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(1760, 890, 20, 20);
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1760, 890, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel8.setText("20");
-        getContentPane().add(jLabel8);
-        jLabel8.setBounds(1750, 180, 20, 20);
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1750, 180, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel9.setText("0");
-        getContentPane().add(jLabel9);
-        jLabel9.setBounds(470, 130, 20, 20);
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 130, 20, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel10.setText("10");
-        getContentPane().add(jLabel10);
-        jLabel10.setBounds(300, 390, 20, 20);
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, -1, -1));
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel11.setText("10");
-        getContentPane().add(jLabel11);
-        jLabel11.setBounds(300, 700, 20, 20);
+        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 700, -1, -1));
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel13.setText("0");
-        getContentPane().add(jLabel13);
-        jLabel13.setBounds(470, 610, 20, 20);
+        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 610, 20, -1));
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -164,104 +169,181 @@ public class gwentInterface extends javax.swing.JFrame {
         jSeparator2.setBounds(0, 220, 1020, 10);
         jPanel9.add(jSeparator3);
         jSeparator3.setBounds(0, 110, 1020, 10);
-        jPanel9.add(jButton27);
-        jButton27.setBounds(250, 0, 110, 110);
-        jPanel9.add(jButton91);
-        jButton91.setBounds(10, 0, 110, 110);
-        jPanel9.add(jButton92);
-        jButton92.setBounds(130, 0, 110, 110);
-        jPanel9.add(jButton93);
-        jButton93.setBounds(610, 0, 110, 110);
-        jPanel9.add(jButton94);
-        jButton94.setBounds(490, 0, 110, 110);
-        jPanel9.add(jButton95);
-        jButton95.setBounds(370, 0, 110, 110);
-        jPanel9.add(jButton96);
-        jButton96.setBounds(850, 0, 110, 110);
-        jPanel9.add(jButton97);
-        jButton97.setBounds(730, 0, 110, 110);
-        jPanel9.add(jButton98);
-        jButton98.setBounds(10, 110, 110, 110);
-        jPanel9.add(jButton99);
-        jButton99.setBounds(130, 110, 110, 110);
-        jPanel9.add(jButton100);
-        jButton100.setBounds(250, 110, 110, 110);
-        jPanel9.add(jButton101);
-        jButton101.setBounds(370, 110, 110, 110);
-        jPanel9.add(jButton102);
-        jButton102.setBounds(490, 110, 110, 110);
-        jPanel9.add(jButton103);
-        jButton103.setBounds(610, 110, 110, 110);
-        jPanel9.add(jButton104);
-        jButton104.setBounds(730, 110, 110, 110);
-        jPanel9.add(jButton105);
-        jButton105.setBounds(850, 110, 110, 110);
-        jPanel9.add(jButton106);
-        jButton106.setBounds(610, 220, 110, 110);
-        jPanel9.add(jButton107);
-        jButton107.setBounds(730, 220, 110, 110);
-        jPanel9.add(jButton108);
-        jButton108.setBounds(370, 220, 110, 110);
-        jPanel9.add(jButton109);
-        jButton109.setBounds(250, 220, 110, 110);
-        jPanel9.add(jButton110);
-        jButton110.setBounds(10, 220, 110, 110);
-        jPanel9.add(jButton111);
-        jButton111.setBounds(130, 220, 110, 110);
-        jPanel9.add(jButton112);
-        jButton112.setBounds(850, 220, 110, 110);
-        jPanel9.add(jButton113);
-        jButton113.setBounds(490, 220, 110, 110);
 
-        getContentPane().add(jPanel9);
-        jPanel9.setBounds(700, 80, 970, 340);
+        p2c3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c3);
+        p2c3.setBounds(250, 220, 110, 110);
+
+        p2c5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c5);
+        p2c5.setBounds(490, 220, 110, 110);
+
+        p2c4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c4);
+        p2c4.setBounds(370, 220, 110, 110);
+
+        p2c8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p2c8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p2c8ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(p2c8);
+        p2c8.setBounds(850, 220, 110, 110);
+
+        p2c2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c2);
+        p2c2.setBounds(130, 220, 110, 110);
+
+        p2c6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c6);
+        p2c6.setBounds(610, 220, 110, 110);
+
+        p2c7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c7);
+        p2c7.setBounds(730, 220, 110, 110);
+
+        p2c1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2c1);
+        p2c1.setBounds(10, 220, 110, 110);
+
+        p2m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m1);
+        p2m1.setBounds(10, 110, 110, 110);
+
+        p2m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m2);
+        p2m2.setBounds(130, 110, 110, 110);
+
+        p2m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m3);
+        p2m3.setBounds(250, 110, 110, 110);
+
+        p2m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m4);
+        p2m4.setBounds(370, 110, 110, 110);
+
+        p2m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m5);
+        p2m5.setBounds(490, 110, 110, 110);
+
+        p2m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m6);
+        p2m6.setBounds(610, 110, 110, 110);
+
+        p2m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2m7);
+        p2m7.setBounds(730, 110, 110, 110);
+
+        p2m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p2m8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p2m8ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(p2m8);
+        p2m8.setBounds(850, 110, 110, 110);
+
+        p2l8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p2l8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p2l8ActionPerformed(evt);
+            }
+        });
+        jPanel9.add(p2l8);
+        p2l8.setBounds(850, 0, 110, 110);
+
+        p2l7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l7);
+        p2l7.setBounds(730, 0, 110, 110);
+
+        p2l6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l6);
+        p2l6.setBounds(610, 0, 110, 110);
+
+        p2l5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l5);
+        p2l5.setBounds(490, 0, 110, 110);
+
+        p2l4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l4);
+        p2l4.setBounds(370, 0, 110, 110);
+
+        p2l3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l3);
+        p2l3.setBounds(250, 0, 110, 110);
+
+        p2l2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l2);
+        p2l2.setBounds(130, 0, 110, 110);
+
+        p2l1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel9.add(p2l1);
+        p2l1.setBounds(10, 0, 110, 110);
+
+        getContentPane().add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 80, 970, 340));
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel15.setText("0");
-        getContentPane().add(jLabel15);
-        jLabel15.setBounds(470, 370, 20, 20);
+        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 370, 20, -1));
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel14.setText("0");
-        getContentPane().add(jLabel14);
-        jLabel14.setBounds(460, 500, 20, 20);
+        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, 20, -1));
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel16.setText("0");
-        getContentPane().add(jLabel16);
-        jLabel16.setBounds(470, 250, 20, 20);
+        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 250, 20, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel12.setText("0");
-        getContentPane().add(jLabel12);
-        jLabel12.setBounds(470, 730, 20, 20);
+        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 730, 20, -1));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel4.setLayout(null);
-        jPanel4.add(jButton140);
-        jButton140.setBounds(260, 0, 110, 110);
-        jPanel4.add(jButton142);
-        jButton142.setBounds(500, 0, 110, 110);
-        jPanel4.add(jButton144);
-        jButton144.setBounds(740, 0, 110, 110);
-        jPanel4.add(jButton139);
-        jButton139.setBounds(140, 0, 110, 110);
-        jPanel4.add(jButton143);
-        jButton143.setBounds(620, 0, 110, 110);
-        jPanel4.add(jButton145);
-        jButton145.setBounds(860, 0, 110, 110);
-        jPanel4.add(jButton138);
-        jButton138.setBounds(20, 0, 110, 110);
-        jPanel4.add(jButton141);
-        jButton141.setBounds(380, 0, 110, 110);
-        jPanel4.add(jButton146);
-        jButton146.setBounds(1100, 0, 110, 110);
-        jPanel4.add(jButton147);
-        jButton147.setBounds(980, 0, 110, 110);
 
-        getContentPane().add(jPanel4);
-        jPanel4.setBounds(460, 810, 1250, 120);
+        jButton138.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton138);
+        jButton138.setBounds(150, 10, 110, 110);
+
+        jButton171.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton171);
+        jButton171.setBounds(30, 10, 110, 110);
+
+        jButton172.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton172);
+        jButton172.setBounds(390, 10, 110, 110);
+
+        jButton173.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton173);
+        jButton173.setBounds(270, 10, 110, 110);
+
+        jButton174.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton174);
+        jButton174.setBounds(750, 10, 110, 110);
+
+        jButton175.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton175);
+        jButton175.setBounds(870, 10, 110, 110);
+
+        jButton176.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton176);
+        jButton176.setBounds(630, 10, 110, 110);
+
+        jButton177.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton177);
+        jButton177.setBounds(510, 10, 110, 110);
+
+        jButton178.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton178);
+        jButton178.setBounds(1110, 10, 110, 110);
+
+        jButton179.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(jButton179);
+        jButton179.setBounds(990, 10, 110, 110);
+
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 810, 1250, 130));
 
         startButton.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         startButton.setText("Start Game");
@@ -270,8 +352,7 @@ public class gwentInterface extends javax.swing.JFrame {
                 startButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(startButton);
-        startButton.setBounds(150, 540, 230, 80);
+        getContentPane().add(startButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 540, 230, 80));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
@@ -279,68 +360,169 @@ public class gwentInterface extends javax.swing.JFrame {
         jSeparator1.setBounds(0, 110, 1020, 10);
         jPanel2.add(jSeparator4);
         jSeparator4.setBounds(0, 220, 1020, 10);
-        jPanel2.add(jButton114);
-        jButton114.setBounds(610, 110, 110, 110);
-        jPanel2.add(jButton115);
-        jButton115.setBounds(730, 110, 110, 110);
-        jPanel2.add(jButton116);
-        jButton116.setBounds(370, 110, 110, 110);
-        jPanel2.add(jButton117);
-        jButton117.setBounds(250, 110, 110, 110);
-        jPanel2.add(jButton118);
-        jButton118.setBounds(10, 110, 110, 110);
-        jPanel2.add(jButton119);
-        jButton119.setBounds(130, 110, 110, 110);
-        jPanel2.add(jButton120);
-        jButton120.setBounds(850, 110, 110, 110);
-        jPanel2.add(jButton121);
-        jButton121.setBounds(490, 110, 110, 110);
-        jPanel2.add(jButton122);
-        jButton122.setBounds(250, 0, 110, 110);
-        jPanel2.add(jButton123);
-        jButton123.setBounds(130, 0, 110, 110);
-        jPanel2.add(jButton124);
-        jButton124.setBounds(610, 0, 110, 110);
-        jPanel2.add(jButton125);
-        jButton125.setBounds(850, 0, 110, 110);
-        jPanel2.add(jButton126);
-        jButton126.setBounds(370, 0, 110, 110);
-        jPanel2.add(jButton127);
-        jButton127.setBounds(490, 0, 110, 110);
-        jPanel2.add(jButton128);
-        jButton128.setBounds(730, 0, 110, 110);
-        jPanel2.add(jButton129);
-        jButton129.setBounds(10, 0, 110, 110);
-        jPanel2.add(jButton130);
-        jButton130.setBounds(250, 220, 110, 110);
-        jPanel2.add(jButton131);
-        jButton131.setBounds(130, 220, 110, 110);
-        jPanel2.add(jButton132);
-        jButton132.setBounds(610, 220, 110, 110);
-        jPanel2.add(jButton133);
-        jButton133.setBounds(850, 220, 110, 110);
-        jPanel2.add(jButton134);
-        jButton134.setBounds(370, 220, 110, 110);
-        jPanel2.add(jButton135);
-        jButton135.setBounds(490, 220, 110, 110);
-        jPanel2.add(jButton136);
-        jButton136.setBounds(730, 220, 110, 110);
-        jPanel2.add(jButton137);
-        jButton137.setBounds(10, 220, 110, 110);
 
-        getContentPane().add(jPanel2);
-        jPanel2.setBounds(700, 450, 970, 340);
+        p1c2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c2);
+        p1c2.setBounds(130, 0, 110, 110);
+
+        p1c1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c1);
+        p1c1.setBounds(10, 0, 110, 110);
+
+        p1c4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c4);
+        p1c4.setBounds(370, 0, 110, 110);
+
+        p1c3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c3);
+        p1c3.setBounds(250, 0, 110, 110);
+
+        p1c8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p1c8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p1c8ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(p1c8);
+        p1c8.setBounds(850, 0, 110, 110);
+
+        p1c7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c7);
+        p1c7.setBounds(730, 0, 110, 110);
+
+        p1c6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c6);
+        p1c6.setBounds(610, 0, 110, 110);
+
+        p1c5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1c5);
+        p1c5.setBounds(490, 0, 110, 110);
+
+        p1m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m1);
+        p1m1.setBounds(10, 110, 110, 110);
+
+        p1m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m2);
+        p1m2.setBounds(130, 110, 110, 110);
+
+        p1m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m3);
+        p1m3.setBounds(250, 110, 110, 110);
+
+        p1m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m4);
+        p1m4.setBounds(370, 110, 110, 110);
+
+        p1m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m5);
+        p1m5.setBounds(490, 110, 110, 110);
+
+        p1m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m6);
+        p1m6.setBounds(610, 110, 110, 110);
+
+        p1m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1m7);
+        p1m7.setBounds(730, 110, 110, 110);
+
+        p1m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p1m8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p1m8ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(p1m8);
+        p1m8.setBounds(850, 110, 110, 110);
+
+        p1l4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l4);
+        p1l4.setBounds(370, 220, 110, 110);
+
+        p1l5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l5);
+        p1l5.setBounds(490, 220, 110, 110);
+
+        p1l3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l3);
+        p1l3.setBounds(250, 220, 110, 110);
+
+        p1l1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l1);
+        p1l1.setBounds(10, 220, 110, 110);
+
+        p1l7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l7);
+        p1l7.setBounds(730, 220, 110, 110);
+
+        p1l8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p1l8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p1l8ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(p1l8);
+        p1l8.setBounds(850, 220, 110, 110);
+
+        p1l2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l2);
+        p1l2.setBounds(130, 220, 110, 110);
+
+        p1l6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel2.add(p1l6);
+        p1l6.setBounds(610, 220, 110, 110);
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 450, 970, 340));
 
         jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
-        getContentPane().add(jLabel7);
-        jLabel7.setBounds(0, 10, 1930, 990);
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1930, 990));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
+        jogo.carregaCartas();
+        
+        System.out.println("curto");
+        for(int i =0; i<jogo.cartasCurtoDoJogo.size(); i++){
+            System.out.println("id: "+ jogo.cartasCurtoDoJogo.get(i).getId());
+             System.out.println("id: "+ jogo.cartasCurtoDoJogo.get(i).getTipo());
+             System.out.println("imagem altura "+ jogo.cartasCurtoDoJogo.get(i).getBackgroung().getIconHeight());} 
+        
+         System.out.println("medio");
+            for(int i =0; i<jogo.cartasMedioDoJogo.size(); i++){
+            System.out.println("id: "+ jogo.cartasMedioDoJogo.get(i).getId());
+             System.out.println("id: "+ jogo.cartasMedioDoJogo.get(i).getTipo());
+             System.out.println("imagem altura "+ jogo.cartasMedioDoJogo.get(i).getBackgroung().getIconHeight());}    
+        p1m2.setIcon((Icon) jogo.imagensCurto.get(1));
+        
+        
         
     }//GEN-LAST:event_startButtonActionPerformed
+
+    private void p1c8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1c8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p1c8ActionPerformed
+
+    private void p1m8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1m8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p1m8ActionPerformed
+
+    private void p1l8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1l8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p1l8ActionPerformed
+
+    private void p2l8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2l8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p2l8ActionPerformed
+
+    private void p2m8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2m8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p2m8ActionPerformed
+
+    private void p2c8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2c8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p2c8ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -381,64 +563,16 @@ public class gwentInterface extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Player1Name;
-    private javax.swing.JButton jButton100;
-    private javax.swing.JButton jButton101;
-    private javax.swing.JButton jButton102;
-    private javax.swing.JButton jButton103;
-    private javax.swing.JButton jButton104;
-    private javax.swing.JButton jButton105;
-    private javax.swing.JButton jButton106;
-    private javax.swing.JButton jButton107;
-    private javax.swing.JButton jButton108;
-    private javax.swing.JButton jButton109;
-    private javax.swing.JButton jButton110;
-    private javax.swing.JButton jButton111;
-    private javax.swing.JButton jButton112;
-    private javax.swing.JButton jButton113;
-    private javax.swing.JButton jButton114;
-    private javax.swing.JButton jButton115;
-    private javax.swing.JButton jButton116;
-    private javax.swing.JButton jButton117;
-    private javax.swing.JButton jButton118;
-    private javax.swing.JButton jButton119;
-    private javax.swing.JButton jButton120;
-    private javax.swing.JButton jButton121;
-    private javax.swing.JButton jButton122;
-    private javax.swing.JButton jButton123;
-    private javax.swing.JButton jButton124;
-    private javax.swing.JButton jButton125;
-    private javax.swing.JButton jButton126;
-    private javax.swing.JButton jButton127;
-    private javax.swing.JButton jButton128;
-    private javax.swing.JButton jButton129;
-    private javax.swing.JButton jButton130;
-    private javax.swing.JButton jButton131;
-    private javax.swing.JButton jButton132;
-    private javax.swing.JButton jButton133;
-    private javax.swing.JButton jButton134;
-    private javax.swing.JButton jButton135;
-    private javax.swing.JButton jButton136;
-    private javax.swing.JButton jButton137;
     private javax.swing.JButton jButton138;
-    private javax.swing.JButton jButton139;
-    private javax.swing.JButton jButton140;
-    private javax.swing.JButton jButton141;
-    private javax.swing.JButton jButton142;
-    private javax.swing.JButton jButton143;
-    private javax.swing.JButton jButton144;
-    private javax.swing.JButton jButton145;
-    private javax.swing.JButton jButton146;
-    private javax.swing.JButton jButton147;
-    private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton91;
-    private javax.swing.JButton jButton92;
-    private javax.swing.JButton jButton93;
-    private javax.swing.JButton jButton94;
-    private javax.swing.JButton jButton95;
-    private javax.swing.JButton jButton96;
-    private javax.swing.JButton jButton97;
-    private javax.swing.JButton jButton98;
-    private javax.swing.JButton jButton99;
+    private javax.swing.JButton jButton171;
+    private javax.swing.JButton jButton172;
+    private javax.swing.JButton jButton173;
+    private javax.swing.JButton jButton174;
+    private javax.swing.JButton jButton175;
+    private javax.swing.JButton jButton176;
+    private javax.swing.JButton jButton177;
+    private javax.swing.JButton jButton178;
+    private javax.swing.JButton jButton179;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -461,6 +595,57 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JButton p1c1;
+    private javax.swing.JButton p1c2;
+    private javax.swing.JButton p1c3;
+    private javax.swing.JButton p1c4;
+    private javax.swing.JButton p1c5;
+    private javax.swing.JButton p1c6;
+    private javax.swing.JButton p1c7;
+    private javax.swing.JButton p1c8;
+    private javax.swing.JButton p1l1;
+    private javax.swing.JButton p1l2;
+    private javax.swing.JButton p1l3;
+    private javax.swing.JButton p1l4;
+    private javax.swing.JButton p1l5;
+    private javax.swing.JButton p1l6;
+    private javax.swing.JButton p1l7;
+    private javax.swing.JButton p1l8;
+    private javax.swing.JButton p1m1;
+    private javax.swing.JButton p1m2;
+    private javax.swing.JButton p1m3;
+    private javax.swing.JButton p1m4;
+    private javax.swing.JButton p1m5;
+    private javax.swing.JButton p1m6;
+    private javax.swing.JButton p1m7;
+    private javax.swing.JButton p1m8;
+    private javax.swing.JButton p2c1;
+    private javax.swing.JButton p2c2;
+    private javax.swing.JButton p2c3;
+    private javax.swing.JButton p2c4;
+    private javax.swing.JButton p2c5;
+    private javax.swing.JButton p2c6;
+    private javax.swing.JButton p2c7;
+    private javax.swing.JButton p2c8;
+    private javax.swing.JButton p2l1;
+    private javax.swing.JButton p2l2;
+    private javax.swing.JButton p2l3;
+    private javax.swing.JButton p2l4;
+    private javax.swing.JButton p2l5;
+    private javax.swing.JButton p2l6;
+    private javax.swing.JButton p2l7;
+    private javax.swing.JButton p2l8;
+    private javax.swing.JButton p2m1;
+    private javax.swing.JButton p2m2;
+    private javax.swing.JButton p2m3;
+    private javax.swing.JButton p2m4;
+    private javax.swing.JButton p2m5;
+    private javax.swing.JButton p2m6;
+    private javax.swing.JButton p2m7;
+    private javax.swing.JButton p2m8;
     private javax.swing.JButton startButton;
     // End of variables declaration//GEN-END:variables
+
 }
+
+
