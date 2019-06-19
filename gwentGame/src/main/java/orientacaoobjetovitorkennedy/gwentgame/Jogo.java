@@ -2,6 +2,7 @@ package orientacaoobjetovitorkennedy.gwentgame;
 
 import java.awt.Image;
 import java.util.ArrayList;
+import java.util.Random;
 import javax.swing.ImageIcon;
 
 public class Jogo {
@@ -19,6 +20,14 @@ public class Jogo {
     ArrayList<Carta> cartasMedioDoJogo = new ArrayList<>();
     ArrayList<Carta> cartasLongoDoJogo = new ArrayList<>();
     ArrayList<Carta> cartasEspecialDoJogo = new ArrayList<>();
+    
+    //decks
+    Deck deck1 = new Deck();
+    Deck deck2 = new Deck();
+
+    //jogadores
+    Jogador jogador1 =  new Jogador();
+    Jogador jogador2 = new Jogador();
      // FIM OBJETOS GLOBAIS DA CLASSE JOGO ---------------------------------------
     
     // ----------------CARREGA IMAGENS DAS CARTAS --------------------------------
@@ -139,7 +148,7 @@ public class Jogo {
     // ----------- FIM DO CARREGAMENTO DAS CARTAS --------------------------------
     
     // método que chama as funções acima, que carrega todas as cartas, com suas imagens e etc
-    public void carregaCartas(){
+    private void carregaCartas(){
         carregaImagensCartasJogo(); // carrega imagens
         carregaCartasCurtasJogo(); //carrega cartas curto
         carregaCartasMedioJogo(); //carrega cartas medio
@@ -147,5 +156,92 @@ public class Jogo {
         carregaCartasEspeciaisJogo(); //carrega cartas especiais
     }
     // ---------------------------------------------------------------------------
-
+    
+    //método para montar decks aleatórios com 20 cartas --------------------------
+    private Deck montaDeck(){
+        ArrayList<Carta> novoDeck = new ArrayList<>();
+        Deck deck =  new Deck();
+        //cartas curtas
+        
+        for(int i=0; i<6; i++){          
+           Random gerador = new Random();          
+           novoDeck.add(cartasCurtoDoJogo.get(gerador.nextInt(26)));        
+        }
+        
+        //cartas medias      
+        for(int i=0; i<6; i++){
+           Random gerador = new Random();
+           novoDeck.add(cartasMedioDoJogo.get(gerador.nextInt(15)));
+        }
+        
+        //cartas longas        
+        for(int i=0; i<6; i++){
+           Random gerador = new Random();
+           novoDeck.add(cartasLongoDoJogo.get(gerador.nextInt(13)));
+        }
+        
+        //cartas especiais        
+        for(int i=0; i<5; i++){
+           Random posicao = new Random();
+           novoDeck.add(posicao.nextInt(5), cartasEspecialDoJogo.get(i));
+        }
+        
+        System.out.println("Deck montado");
+        for(int i=0; i<novoDeck.size(); i++){
+            System.out.println("posicao no deck: " + i);
+            System.out.println("carta: "+ novoDeck.get(i).getId());
+        }
+        
+        deck.setListaCartas(novoDeck);
+        return deck;
+    }
+    // fim do método que monta decks aleatórios ----------------------------------
+    
+    // metodo para montar jogadores-----------------------------------------------
+    private void montaJogadores(){
+        ArrayList maoLista1 = new ArrayList<>();
+        ArrayList maoLista2 = new ArrayList<>();
+        Mao mao1 = new Mao();
+        Mao mao2 = new Mao();        
+        
+        // monta os 2 decks dos jogadores
+        deck1=montaDeck();
+        deck2=montaDeck();
+        
+        //coloca os decks para cada jogador
+        jogador1.setDeck(deck1);
+        jogador2.setDeck(deck2);
+        
+        // seta os pontos de vida de cada jogador
+        jogador1.setHp(20);
+        jogador2.setHp(20);
+        
+        
+        //monta lista com as 10 primeias cartas dos decks de cada jogador e remove dos seus decks
+        for(int i=0; i<10; i++){
+            maoLista1.add(deck1.getDeck().get(i));
+            deck1.getDeck().remove(i);
+            
+            maoLista2.add(deck2.getDeck().get(i));
+            deck2.getDeck().remove(i);
+        }
+        
+        // monta maos com as listas de cartas
+        mao1.setMao(maoLista1);
+        mao2.setMao(maoLista2);
+        
+        //coloca as maos nos jogadores
+        jogador1.setMao(mao1);
+        jogador2.setMao(mao2);
+        
+        
+        // garante que o numero de turnos de cada jogador comece em 0
+        jogador1.setTurnos(0);
+        jogador2.setTurnos(0);
+   }// Fim do metodo para montar jogadores----------------------------------------
+    
+    public void iniciaJogo(){
+        carregaCartas();
+        montaJogadores();
+    }
 }

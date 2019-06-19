@@ -77,16 +77,16 @@ public class gwentInterface extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
-        jButton138 = new javax.swing.JButton();
-        jButton171 = new javax.swing.JButton();
-        jButton172 = new javax.swing.JButton();
-        jButton173 = new javax.swing.JButton();
-        jButton174 = new javax.swing.JButton();
-        jButton175 = new javax.swing.JButton();
-        jButton176 = new javax.swing.JButton();
-        jButton177 = new javax.swing.JButton();
-        jButton178 = new javax.swing.JButton();
-        jButton179 = new javax.swing.JButton();
+        m2 = new javax.swing.JButton();
+        m1 = new javax.swing.JButton();
+        m4 = new javax.swing.JButton();
+        m3 = new javax.swing.JButton();
+        m7 = new javax.swing.JButton();
+        m8 = new javax.swing.JButton();
+        m6 = new javax.swing.JButton();
+        m5 = new javax.swing.JButton();
+        m10 = new javax.swing.JButton();
+        m9 = new javax.swing.JButton();
         startButton = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
@@ -118,49 +118,37 @@ public class gwentInterface extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setLayout(null);
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(2482, 0, 0, 1296));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel1.setText("Player 2");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 450, 80, -1));
 
         Player1Name.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         Player1Name.setText("Player1");
-        getContentPane().add(Player1Name, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 760, 80, -1));
 
         jLabel4.setText("Descrition 2");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 470, 110, -1));
 
         jLabel5.setText("Description 2");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 780, 110, -1));
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel6.setText("20");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(1760, 890, -1, -1));
 
         jLabel8.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel8.setText("20");
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1750, 180, -1, -1));
 
         jLabel9.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel9.setText("0");
-        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 130, 20, -1));
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel10.setText("10");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, -1, -1));
+        jLabel10.setText("20");
 
         jLabel11.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel11.setText("10");
-        getContentPane().add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 700, -1, -1));
+        jLabel11.setText("20");
 
         jLabel13.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel13.setText("0");
-        getContentPane().add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 610, 20, -1));
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -281,69 +269,61 @@ public class gwentInterface extends javax.swing.JFrame {
         jPanel9.add(p2l1);
         p2l1.setBounds(10, 0, 110, 110);
 
-        getContentPane().add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 80, 970, 340));
-
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel15.setText("0");
-        getContentPane().add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 370, 20, -1));
 
         jLabel14.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel14.setText("0");
-        getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, 20, -1));
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel16.setText("0");
-        getContentPane().add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 250, 20, -1));
 
         jLabel12.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel12.setText("0");
-        getContentPane().add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 730, 20, -1));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel4.setLayout(null);
 
-        jButton138.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton138);
-        jButton138.setBounds(150, 10, 110, 110);
+        m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m2);
+        m2.setBounds(150, 10, 110, 110);
 
-        jButton171.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton171);
-        jButton171.setBounds(30, 10, 110, 110);
+        m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m1);
+        m1.setBounds(30, 10, 110, 110);
 
-        jButton172.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton172);
-        jButton172.setBounds(390, 10, 110, 110);
+        m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m4);
+        m4.setBounds(390, 10, 110, 110);
 
-        jButton173.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton173);
-        jButton173.setBounds(270, 10, 110, 110);
+        m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m3);
+        m3.setBounds(270, 10, 110, 110);
 
-        jButton174.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton174);
-        jButton174.setBounds(750, 10, 110, 110);
+        m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m7);
+        m7.setBounds(750, 10, 110, 110);
 
-        jButton175.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton175);
-        jButton175.setBounds(870, 10, 110, 110);
+        m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m8);
+        m8.setBounds(870, 10, 110, 110);
 
-        jButton176.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton176);
-        jButton176.setBounds(630, 10, 110, 110);
+        m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m6);
+        m6.setBounds(630, 10, 110, 110);
 
-        jButton177.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton177);
-        jButton177.setBounds(510, 10, 110, 110);
+        m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m5);
+        m5.setBounds(510, 10, 110, 110);
 
-        jButton178.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton178);
-        jButton178.setBounds(1110, 10, 110, 110);
+        m10.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m10);
+        m10.setBounds(1110, 10, 110, 110);
 
-        jButton179.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
-        jPanel4.add(jButton179);
-        jButton179.setBounds(990, 10, 110, 110);
-
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 810, 1250, 130));
+        m9.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel4.add(m9);
+        m9.setBounds(990, 10, 110, 110);
 
         startButton.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         startButton.setText("Start Game");
@@ -352,7 +332,6 @@ public class gwentInterface extends javax.swing.JFrame {
                 startButtonActionPerformed(evt);
             }
         });
-        getContentPane().add(startButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 540, 230, 80));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
@@ -472,29 +451,133 @@ public class gwentInterface extends javax.swing.JFrame {
         jPanel2.add(p1l6);
         p1l6.setBounds(610, 220, 110, 110);
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 450, 970, 340));
-
         jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 10, 1930, 990));
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(310, 310, 310)
+                .addComponent(jLabel10)
+                .addGap(140, 140, 140)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(210, 210, 210)
+                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 970, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(80, 80, 80)
+                .addComponent(jLabel8))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(150, 150, 150)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(110, 110, 110)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(110, 110, 110)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(150, 150, 150)
+                        .addComponent(jLabel11))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(100, 100, 100)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(80, 80, 80)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(210, 210, 210)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 970, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(460, 460, 460)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1250, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(50, 50, 50)
+                .addComponent(jLabel6))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(250, 250, 250)
+                .addComponent(Player1Name, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 1910, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(70, 70, 70)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(300, 300, 300)
+                                .addComponent(jLabel10))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(jLabel9)
+                                .addGap(100, 100, 100)
+                                .addComponent(jLabel16)
+                                .addGap(100, 100, 100)
+                                .addComponent(jLabel15))
+                            .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(100, 100, 100)
+                                .addComponent(jLabel8)))
+                        .addGap(30, 30, 30)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(0, 0, 0)
+                                .addComponent(jLabel4)
+                                .addGap(50, 50, 50)
+                                .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(80, 80, 80)
+                                .addComponent(jLabel11)
+                                .addGap(60, 60, 60)
+                                .addComponent(jLabel5))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(50, 50, 50)
+                                .addComponent(jLabel14)
+                                .addGap(90, 90, 90)
+                                .addComponent(jLabel13)
+                                .addGap(100, 100, 100)
+                                .addComponent(jLabel12))
+                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(10, 10, 10)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(80, 80, 80)
+                                .addComponent(jLabel6))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(750, 750, 750)
+                        .addComponent(Player1Name))
+                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 990, javax.swing.GroupLayout.PREFERRED_SIZE)))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
-        jogo.carregaCartas();
+        jogo.iniciaJogo();
+       
+        m1.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(0).getBackgroung());
+        m2.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(1).getBackgroung());
+        m3.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(2).getBackgroung());
+        m4.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(3).getBackgroung());
+        m5.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(4).getBackgroung());
+        m6.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(5).getBackgroung());;        
+        m7.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(6).getBackgroung());
+        m8.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(7).getBackgroung());
+        m9.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(8).getBackgroung());
+        m10.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(9).getBackgroung());
         
-        System.out.println("curto");
-        for(int i =0; i<jogo.cartasCurtoDoJogo.size(); i++){
-            System.out.println("id: "+ jogo.cartasCurtoDoJogo.get(i).getId());
-             System.out.println("id: "+ jogo.cartasCurtoDoJogo.get(i).getTipo());
-             System.out.println("imagem altura "+ jogo.cartasCurtoDoJogo.get(i).getBackgroung().getIconHeight());} 
         
-         System.out.println("medio");
-            for(int i =0; i<jogo.cartasMedioDoJogo.size(); i++){
-            System.out.println("id: "+ jogo.cartasMedioDoJogo.get(i).getId());
-             System.out.println("id: "+ jogo.cartasMedioDoJogo.get(i).getTipo());
-             System.out.println("imagem altura "+ jogo.cartasMedioDoJogo.get(i).getBackgroung().getIconHeight());}    
-        p1m2.setIcon((Icon) jogo.imagensCurto.get(1));
+
         
         
         
@@ -563,16 +646,6 @@ public class gwentInterface extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel Player1Name;
-    private javax.swing.JButton jButton138;
-    private javax.swing.JButton jButton171;
-    private javax.swing.JButton jButton172;
-    private javax.swing.JButton jButton173;
-    private javax.swing.JButton jButton174;
-    private javax.swing.JButton jButton175;
-    private javax.swing.JButton jButton176;
-    private javax.swing.JButton jButton177;
-    private javax.swing.JButton jButton178;
-    private javax.swing.JButton jButton179;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -595,6 +668,16 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JButton m1;
+    private javax.swing.JButton m10;
+    private javax.swing.JButton m2;
+    private javax.swing.JButton m3;
+    private javax.swing.JButton m4;
+    private javax.swing.JButton m5;
+    private javax.swing.JButton m6;
+    private javax.swing.JButton m7;
+    private javax.swing.JButton m8;
+    private javax.swing.JButton m9;
     private javax.swing.JButton p1c1;
     private javax.swing.JButton p1c2;
     private javax.swing.JButton p1c3;
