@@ -5,35 +5,32 @@ import java.util.ArrayList;
 
 public class Mao {
     private int numCartas;
-    private ArrayList<Carta> lista;
-    
-    public ArrayList getMao()
+     private ArrayList<Carta> listaCartasMao = new ArrayList<>();
+        
+    public ArrayList<Carta> getCartasMao()
     {
-        return lista;
+        return this.listaCartasMao;
+    }
+    public void setMao(ArrayList<Carta> cartas){
+        this.listaCartasMao =cartas;
     }
     
     public int getNumCartas()
     {
         return numCartas;
-    }
-    
-    public Mao()
-    {
-        this.numCartas = 0;
-        lista= new ArrayList();
-    }
+    }       
     
     public void adicionaMao(Carta carta)
     {
-        lista.add(carta);
+        listaCartasMao.add(carta);
         numCartas++;
     }
     
     public Carta retiraMao(int i)
     {
         Carta carta;
-        carta = lista.get(i);
-        lista.remove(i);
+        carta = listaCartasMao.get(i);
+        listaCartasMao.remove(i);
         numCartas--;
         return carta;
     }
