@@ -34,6 +34,7 @@ public class gwentInterface extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        startButton = new javax.swing.JButton();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         Player1Name = new javax.swing.JLabel();
@@ -72,6 +73,7 @@ public class gwentInterface extends javax.swing.JFrame {
         p2l3 = new javax.swing.JButton();
         p2l2 = new javax.swing.JButton();
         p2l1 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
@@ -87,7 +89,7 @@ public class gwentInterface extends javax.swing.JFrame {
         m5 = new javax.swing.JButton();
         m10 = new javax.swing.JButton();
         m9 = new javax.swing.JButton();
-        startButton = new javax.swing.JButton();
+        jLabel17 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator4 = new javax.swing.JSeparator();
@@ -115,9 +117,18 @@ public class gwentInterface extends javax.swing.JFrame {
         p1l8 = new javax.swing.JButton();
         p1l2 = new javax.swing.JButton();
         p1l6 = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        startButton.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        startButton.setText("Start Game");
+        startButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                startButtonActionPerformed(evt);
+            }
+        });
 
         jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setLayout(null);
@@ -160,15 +171,15 @@ public class gwentInterface extends javax.swing.JFrame {
 
         p2c3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c3);
-        p2c3.setBounds(250, 220, 110, 110);
+        p2c3.setBounds(280, 220, 110, 110);
 
         p2c5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c5);
-        p2c5.setBounds(490, 220, 110, 110);
+        p2c5.setBounds(520, 220, 110, 110);
 
         p2c4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c4);
-        p2c4.setBounds(370, 220, 110, 110);
+        p2c4.setBounds(400, 220, 110, 110);
 
         p2c8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         p2c8.addActionListener(new java.awt.event.ActionListener() {
@@ -177,51 +188,51 @@ public class gwentInterface extends javax.swing.JFrame {
             }
         });
         jPanel9.add(p2c8);
-        p2c8.setBounds(850, 220, 110, 110);
+        p2c8.setBounds(880, 220, 110, 110);
 
         p2c2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c2);
-        p2c2.setBounds(130, 220, 110, 110);
+        p2c2.setBounds(160, 220, 110, 110);
 
         p2c6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c6);
-        p2c6.setBounds(610, 220, 110, 110);
+        p2c6.setBounds(640, 220, 110, 110);
 
         p2c7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c7);
-        p2c7.setBounds(730, 220, 110, 110);
+        p2c7.setBounds(760, 220, 110, 110);
 
         p2c1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2c1);
-        p2c1.setBounds(10, 220, 110, 110);
+        p2c1.setBounds(40, 220, 110, 110);
 
         p2m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m1);
-        p2m1.setBounds(10, 110, 110, 110);
+        p2m1.setBounds(40, 110, 110, 110);
 
         p2m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m2);
-        p2m2.setBounds(130, 110, 110, 110);
+        p2m2.setBounds(160, 110, 110, 110);
 
         p2m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m3);
-        p2m3.setBounds(250, 110, 110, 110);
+        p2m3.setBounds(280, 110, 110, 110);
 
         p2m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m4);
-        p2m4.setBounds(370, 110, 110, 110);
+        p2m4.setBounds(400, 110, 110, 110);
 
         p2m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m5);
-        p2m5.setBounds(490, 110, 110, 110);
+        p2m5.setBounds(520, 110, 110, 110);
 
         p2m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m6);
-        p2m6.setBounds(610, 110, 110, 110);
+        p2m6.setBounds(640, 110, 110, 110);
 
         p2m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2m7);
-        p2m7.setBounds(730, 110, 110, 110);
+        p2m7.setBounds(760, 110, 110, 110);
 
         p2m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         p2m8.addActionListener(new java.awt.event.ActionListener() {
@@ -230,7 +241,7 @@ public class gwentInterface extends javax.swing.JFrame {
             }
         });
         jPanel9.add(p2m8);
-        p2m8.setBounds(850, 110, 110, 110);
+        p2m8.setBounds(880, 110, 110, 110);
 
         p2l8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         p2l8.addActionListener(new java.awt.event.ActionListener() {
@@ -239,35 +250,44 @@ public class gwentInterface extends javax.swing.JFrame {
             }
         });
         jPanel9.add(p2l8);
-        p2l8.setBounds(850, 0, 110, 110);
+        p2l8.setBounds(880, 0, 110, 110);
 
         p2l7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2l7);
-        p2l7.setBounds(730, 0, 110, 110);
+        p2l7.setBounds(760, 0, 110, 110);
 
         p2l6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2l6);
-        p2l6.setBounds(610, 0, 110, 110);
+        p2l6.setBounds(640, 0, 110, 110);
 
         p2l5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2l5);
-        p2l5.setBounds(490, 0, 110, 110);
+        p2l5.setBounds(520, 0, 110, 110);
 
         p2l4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2l4);
-        p2l4.setBounds(370, 0, 110, 110);
+        p2l4.setBounds(400, 0, 110, 110);
 
         p2l3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2l3);
-        p2l3.setBounds(250, 0, 110, 110);
+        p2l3.setBounds(280, 0, 110, 110);
 
         p2l2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel9.add(p2l2);
-        p2l2.setBounds(130, 0, 110, 110);
+        p2l2.setBounds(160, 0, 110, 110);
 
         p2l1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p2l1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p2l1ActionPerformed(evt);
+            }
+        });
         jPanel9.add(p2l1);
-        p2l1.setBounds(10, 0, 110, 110);
+        p2l1.setBounds(40, 0, 110, 110);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\fileiraBackground.png")); // NOI18N
+        jPanel9.add(jLabel2);
+        jLabel2.setBounds(0, 0, 1030, 340);
 
         jLabel15.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jLabel15.setText("0");
@@ -287,51 +307,47 @@ public class gwentInterface extends javax.swing.JFrame {
 
         m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m2);
-        m2.setBounds(150, 10, 110, 110);
+        m2.setBounds(160, 0, 110, 110);
 
         m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m1);
-        m1.setBounds(30, 10, 110, 110);
+        m1.setBounds(40, 0, 110, 110);
 
         m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m4);
-        m4.setBounds(390, 10, 110, 110);
+        m4.setBounds(400, 0, 110, 110);
 
         m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m3);
-        m3.setBounds(270, 10, 110, 110);
+        m3.setBounds(280, 0, 110, 110);
 
         m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m7);
-        m7.setBounds(750, 10, 110, 110);
+        m7.setBounds(760, 0, 110, 110);
 
         m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m8);
-        m8.setBounds(870, 10, 110, 110);
+        m8.setBounds(880, 0, 110, 110);
 
         m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m6);
-        m6.setBounds(630, 10, 110, 110);
+        m6.setBounds(640, 0, 110, 110);
 
         m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m5);
-        m5.setBounds(510, 10, 110, 110);
+        m5.setBounds(520, 0, 110, 110);
 
         m10.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m10);
-        m10.setBounds(1110, 10, 110, 110);
+        m10.setBounds(1120, 0, 110, 110);
 
         m9.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel4.add(m9);
-        m9.setBounds(990, 10, 110, 110);
+        m9.setBounds(1000, 0, 110, 110);
 
-        startButton.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
-        startButton.setText("Start Game");
-        startButton.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                startButtonActionPerformed(evt);
-            }
-        });
+        jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\maoBackground.png")); // NOI18N
+        jPanel4.add(jLabel17);
+        jLabel17.setBounds(0, -10, 1250, 140);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
@@ -342,19 +358,19 @@ public class gwentInterface extends javax.swing.JFrame {
 
         p1c2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c2);
-        p1c2.setBounds(130, 0, 110, 110);
+        p1c2.setBounds(160, 0, 110, 110);
 
         p1c1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c1);
-        p1c1.setBounds(10, 0, 110, 110);
+        p1c1.setBounds(40, 0, 110, 110);
 
         p1c4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c4);
-        p1c4.setBounds(370, 0, 110, 110);
+        p1c4.setBounds(400, 0, 110, 110);
 
         p1c3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c3);
-        p1c3.setBounds(250, 0, 110, 110);
+        p1c3.setBounds(280, 0, 110, 110);
 
         p1c8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         p1c8.addActionListener(new java.awt.event.ActionListener() {
@@ -363,47 +379,47 @@ public class gwentInterface extends javax.swing.JFrame {
             }
         });
         jPanel2.add(p1c8);
-        p1c8.setBounds(850, 0, 110, 110);
+        p1c8.setBounds(880, 0, 110, 110);
 
         p1c7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c7);
-        p1c7.setBounds(730, 0, 110, 110);
+        p1c7.setBounds(760, 0, 110, 110);
 
         p1c6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c6);
-        p1c6.setBounds(610, 0, 110, 110);
+        p1c6.setBounds(640, 0, 110, 110);
 
         p1c5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1c5);
-        p1c5.setBounds(490, 0, 110, 110);
+        p1c5.setBounds(520, 0, 110, 110);
 
         p1m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m1);
-        p1m1.setBounds(10, 110, 110, 110);
+        p1m1.setBounds(40, 110, 110, 110);
 
         p1m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m2);
-        p1m2.setBounds(130, 110, 110, 110);
+        p1m2.setBounds(160, 110, 110, 110);
 
         p1m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m3);
-        p1m3.setBounds(250, 110, 110, 110);
+        p1m3.setBounds(280, 110, 110, 110);
 
         p1m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m4);
-        p1m4.setBounds(370, 110, 110, 110);
+        p1m4.setBounds(400, 110, 110, 110);
 
         p1m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m5);
-        p1m5.setBounds(490, 110, 110, 110);
+        p1m5.setBounds(520, 110, 110, 110);
 
         p1m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m6);
-        p1m6.setBounds(610, 110, 110, 110);
+        p1m6.setBounds(640, 110, 110, 110);
 
         p1m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1m7);
-        p1m7.setBounds(730, 110, 110, 110);
+        p1m7.setBounds(760, 110, 110, 110);
 
         p1m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         p1m8.addActionListener(new java.awt.event.ActionListener() {
@@ -412,27 +428,27 @@ public class gwentInterface extends javax.swing.JFrame {
             }
         });
         jPanel2.add(p1m8);
-        p1m8.setBounds(850, 110, 110, 110);
+        p1m8.setBounds(880, 110, 110, 110);
 
         p1l4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l4);
-        p1l4.setBounds(370, 220, 110, 110);
+        p1l4.setBounds(400, 220, 110, 110);
 
         p1l5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l5);
-        p1l5.setBounds(490, 220, 110, 110);
+        p1l5.setBounds(520, 220, 110, 110);
 
         p1l3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l3);
-        p1l3.setBounds(250, 220, 110, 110);
+        p1l3.setBounds(280, 220, 110, 110);
 
         p1l1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l1);
-        p1l1.setBounds(10, 220, 110, 110);
+        p1l1.setBounds(40, 220, 110, 110);
 
         p1l7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l7);
-        p1l7.setBounds(730, 220, 110, 110);
+        p1l7.setBounds(760, 220, 110, 110);
 
         p1l8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         p1l8.addActionListener(new java.awt.event.ActionListener() {
@@ -441,15 +457,19 @@ public class gwentInterface extends javax.swing.JFrame {
             }
         });
         jPanel2.add(p1l8);
-        p1l8.setBounds(850, 220, 110, 110);
+        p1l8.setBounds(880, 220, 110, 110);
 
         p1l2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l2);
-        p1l2.setBounds(130, 220, 110, 110);
+        p1l2.setBounds(160, 220, 110, 110);
 
         p1l6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
         jPanel2.add(p1l6);
-        p1l6.setBounds(610, 220, 110, 110);
+        p1l6.setBounds(640, 220, 110, 110);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\fileiraBackground.png")); // NOI18N
+        jPanel2.add(jLabel3);
+        jLabel3.setBounds(0, 0, 1030, 340);
 
         jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
 
@@ -465,45 +485,50 @@ public class gwentInterface extends javax.swing.JFrame {
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(210, 210, 210)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 970, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(80, 80, 80)
+                .addGap(198, 198, 198)
+                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 1023, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(39, 39, 39)
                 .addComponent(jLabel8))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(150, 150, 150)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(110, 110, 110)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(110, 110, 110)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(150, 150, 150)
-                        .addComponent(jLabel11))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(100, 100, 100)
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(80, 80, 80)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(210, 210, 210)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 970, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(layout.createSequentialGroup()
                 .addGap(460, 460, 460)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1250, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(50, 50, 50)
                 .addComponent(jLabel6))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(250, 250, 250)
-                .addComponent(Player1Name, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 1910, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(260, 260, 260)
+                                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(260, 260, 260)
+                                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(300, 300, 300)
+                                        .addComponent(jLabel11))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(250, 250, 250)
+                                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGap(90, 90, 90))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(83, 83, 83)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(250, 250, 250)
+                        .addComponent(Player1Name, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(198, 198, 198)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1021, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -530,32 +555,34 @@ public class gwentInterface extends javax.swing.JFrame {
                         .addGap(30, 30, 30)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addGap(0, 0, 0)
-                                .addComponent(jLabel4)
-                                .addGap(50, 50, 50)
-                                .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(80, 80, 80)
-                                .addComponent(jLabel11)
-                                .addGap(60, 60, 60)
-                                .addComponent(jLabel5))
-                            .addGroup(layout.createSequentialGroup()
                                 .addGap(50, 50, 50)
                                 .addComponent(jLabel14)
                                 .addGap(90, 90, 90)
                                 .addComponent(jLabel13)
                                 .addGap(100, 100, 100)
                                 .addComponent(jLabel12))
-                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(0, 0, 0)
+                                .addComponent(jLabel4)
+                                .addGap(50, 50, 50)
+                                .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(80, 80, 80)
+                                        .addComponent(jLabel11)
+                                        .addGap(60, 60, 60)
+                                        .addComponent(jLabel5))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(140, 140, 140)
+                                        .addComponent(Player1Name)))))
                         .addGap(10, 10, 10)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(80, 80, 80)
                                 .addComponent(jLabel6))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(750, 750, 750)
-                        .addComponent(Player1Name))
                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 990, javax.swing.GroupLayout.PREFERRED_SIZE)))
         );
 
@@ -607,6 +634,10 @@ public class gwentInterface extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_p2c8ActionPerformed
 
+    private void p2l1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2l1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p2l1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -654,6 +685,9 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;

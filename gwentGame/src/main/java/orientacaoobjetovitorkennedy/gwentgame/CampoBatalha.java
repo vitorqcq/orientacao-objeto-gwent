@@ -2,7 +2,7 @@ package orientacaoobjetovitorkennedy.gwentgame;
 
 import java.util.ArrayList;
 
-public class CampoBatalha {
+public class CampoBatalha extends Jogo{
 
     private ArrayList<Carta> listaCartasCampo = new ArrayList<>();
     private ArrayList<Carta> containerCartasCurto = new ArrayList<>();
