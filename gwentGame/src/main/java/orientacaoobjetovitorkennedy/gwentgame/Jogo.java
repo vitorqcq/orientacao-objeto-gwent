@@ -2,7 +2,9 @@ package orientacaoobjetovitorkennedy.gwentgame;
 
 import java.awt.Image;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 import javax.swing.ImageIcon;
 
 public class Jogo {
@@ -10,24 +12,28 @@ public class Jogo {
    
     // OBJETOS GLOBAIS DA CLASSE JOGO --------------------------------------------
     //ArrayLists para guardar as imagens
-    ArrayList<ImageIcon> imagensCurto = new ArrayList<>();
-    ArrayList<ImageIcon> imagensMedio = new ArrayList<>();
-    ArrayList<ImageIcon> imagensLongo = new ArrayList<>();
-    ArrayList<ImageIcon> imagensEspeciais = new ArrayList<>();
+   private  ArrayList<ImageIcon> imagensCurto = new ArrayList<>();
+   private  ArrayList<ImageIcon> imagensMedio = new ArrayList<>();
+   private  ArrayList<ImageIcon> imagensLongo = new ArrayList<>();
+   private  ArrayList<ImageIcon> imagensEspeciais = new ArrayList<>();
 
     //ArrayLists para guardar as cartas do jogo
-    ArrayList<Carta> cartasCurtoDoJogo = new ArrayList<>();
-    ArrayList<Carta> cartasMedioDoJogo = new ArrayList<>();
-    ArrayList<Carta> cartasLongoDoJogo = new ArrayList<>();
-    ArrayList<Carta> cartasEspecialDoJogo = new ArrayList<>();
+   private  ArrayList<Carta> cartasCurtoDoJogo = new ArrayList<>();
+   private  ArrayList<Carta> cartasMedioDoJogo = new ArrayList<>();
+   private  ArrayList<Carta> cartasLongoDoJogo = new ArrayList<>();
+   private  ArrayList<Carta> cartasEspecialDoJogo = new ArrayList<>();
     
     //decks
-    Deck deck1 = new Deck();
-    Deck deck2 = new Deck();
+   private  Deck deck1 = new Deck();
+   private  Deck deck2 = new Deck();
 
     //jogadores
     Jogador jogador1 =  new Jogador();
     Jogador jogador2 = new Jogador();
+    Jogador jogadorDaVez = new Jogador();
+   
+    //numero de turnos que se passaram
+    int turnos;
      // FIM OBJETOS GLOBAIS DA CLASSE JOGO ---------------------------------------
     
     // ----------------CARREGA IMAGENS DAS CARTAS --------------------------------
@@ -44,6 +50,7 @@ public class Jogo {
             ImageIcon imageicon = new ImageIcon(path);
             carta = imageicon.getImage().getScaledInstance(imageicon.getIconHeight(), imageicon.getIconWidth(), Image.SCALE_DEFAULT);
             imageicon.setImage(carta);
+            imageicon.setDescription(path);
             imagensCurto.add(imageicon);
         }
         System.out.println("Cartas de curto alcance carregadas");
@@ -56,6 +63,7 @@ public class Jogo {
             ImageIcon imageicon = new ImageIcon(path);
             carta = imageicon.getImage().getScaledInstance(imageicon.getIconHeight(), imageicon.getIconWidth(), Image.SCALE_DEFAULT);
             imageicon.setImage(carta);
+            imageicon.setDescription(path);
             imagensMedio.add(imageicon);
         }
         System.out.println("Cartas de medio alcance carregadas");
@@ -67,6 +75,7 @@ public class Jogo {
             ImageIcon imageicon = new ImageIcon(path);
             carta = imageicon.getImage().getScaledInstance(imageicon.getIconHeight(), imageicon.getIconWidth(), Image.SCALE_DEFAULT);
             imageicon.setImage(carta);
+            imageicon.setDescription(path);
             imagensLongo.add(imageicon);
         }
         System.out.println("Cartas de longo alcance carregadas");
@@ -79,6 +88,7 @@ public class Jogo {
             ImageIcon imageicon = new ImageIcon(path);
             carta = imageicon.getImage().getScaledInstance(imageicon.getIconHeight(), imageicon.getIconWidth(), Image.SCALE_DEFAULT);
             imageicon.setImage(carta);
+            imageicon.setDescription(path);
             imagensEspeciais.add(imageicon);
         }
         System.out.println("Cartas especiais carregadas");
@@ -96,7 +106,7 @@ public class Jogo {
             carta.setId(nome);
             carta.setTipo(1);
             carta.setBackground(imagensCurto.get(i));
-            carta.setDescricao("");
+            carta.setDescricao("");           
             cartasCurtoDoJogo.add(carta);
         }
     }
@@ -160,31 +170,34 @@ public class Jogo {
     //método para montar decks aleatórios com 20 cartas --------------------------
     private Deck montaDeck(){
         ArrayList<Carta> novoDeck = new ArrayList<>();
+        Set<Carta> novoDeckSet =  new HashSet<Carta>();
         Deck deck =  new Deck();
         //cartas curtas
         
-        for(int i=0; i<6; i++){          
+        while(novoDeckSet.size()<=6){
            Random gerador = new Random();          
-           novoDeck.add(cartasCurtoDoJogo.get(gerador.nextInt(26)));        
+           novoDeckSet.add(cartasCurtoDoJogo.get(gerador.nextInt(26)));   
         }
-        
         //cartas medias      
-        for(int i=0; i<6; i++){
+        while(novoDeckSet.size()<=12){
            Random gerador = new Random();
-           novoDeck.add(cartasMedioDoJogo.get(gerador.nextInt(15)));
+           novoDeckSet.add(cartasMedioDoJogo.get(gerador.nextInt(15)));
         }
         
         //cartas longas        
-        for(int i=0; i<6; i++){
+        while(novoDeckSet.size()<=18){
            Random gerador = new Random();
-           novoDeck.add(cartasLongoDoJogo.get(gerador.nextInt(13)));
+           novoDeckSet.add(cartasLongoDoJogo.get(gerador.nextInt(13)));
         }
         
         //cartas especiais        
-        for(int i=0; i<5; i++){
-           Random posicao = new Random();
-           novoDeck.add(posicao.nextInt(5), cartasEspecialDoJogo.get(i));
+        while(novoDeckSet.size()<=20){
+             Random gerador = new Random();
+           novoDeckSet.add(cartasEspecialDoJogo.get(gerador.nextInt(5)));
         }
+        
+        //CONVERTE O SET EM ARRAYLIST
+        novoDeckSet.forEach(novoDeck::add);
         
         System.out.println("Deck montado");
         for(int i=0; i<novoDeck.size(); i++){
@@ -216,6 +229,9 @@ public class Jogo {
         jogador1.setHp(20);
         jogador2.setHp(20);
         
+         // seta os nomes cada jogador
+        jogador1.setNome("Jogador 1");
+        jogador2.setNome("Jogador 2");
         
         //monta lista com as 10 primeias cartas dos decks de cada jogador e remove dos seus decks
         for(int i=0; i<10; i++){
@@ -240,8 +256,49 @@ public class Jogo {
         jogador2.setTurnos(0);
    }// Fim do metodo para montar jogadores----------------------------------------
     
-    public void iniciaJogo(){
+       
+   private void  sorteiaJogador(){
+       int num;
+       
+       Random gerador = new Random();          
+       num = gerador.nextInt(2);
+       
+       if(num ==1){
+           jogadorDaVez = jogador1;
+           jogador1.setTurno(true);
+           jogador1.setTurnos(1);
+       }
+       else{
+           jogadorDaVez =jogador2;
+           jogador2.setTurno(true);
+           jogador2.setTurnos(1);
+       }
+           
+   }
+   public void passaVez(){
+       if(jogadorDaVez.getNome() == jogador1.getNome()){
+           jogador1.setTurno(false);
+           jogador2.setTurno(true);
+           jogador2.setTurnos(jogador2.getTurnos()+1);
+           jogadorDaVez = jogador2;
+           turnos++;
+       }
+       else if(jogadorDaVez.getNome() == jogador2.getNome()){
+           jogador2.setTurno(false);
+           jogador1.setTurno(true);
+           jogador1.setTurnos(jogador1.getTurnos()+1);
+           jogadorDaVez = jogador1;
+           turnos++;
+       }
+   }
+      
+   
+   public void iniciaJogo(){
         carregaCartas();
         montaJogadores();
+        sorteiaJogador();
     }
+   private void primeiroTurno(){
+       
+   }
 }
