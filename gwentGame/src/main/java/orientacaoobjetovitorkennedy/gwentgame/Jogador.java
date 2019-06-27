@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 public class Jogador {
     private String nome;
-    private Deck deck;
-    private Mao mao;
-    private Cemiterio cemiterio;
+    private Deck deck = new Deck();
+    public Mao mao = new Mao();
+    private Cemiterio cemiterio =  new Cemiterio();
     private int turnos;
     private boolean turno;
     private int hp;
-    private CampoBatalha campo;
+    private CampoBatalha campo =  new CampoBatalha();
 
     public int getHp() {
         return this.hp;

@@ -2,8 +2,11 @@
 
 package orientacaoobjetovitorkennedy.gwentgame;
 
+import java.awt.Component;
+import java.awt.Image;
 import java.util.ArrayList;
 import javax.swing.Icon;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 
@@ -34,18 +37,16 @@ public class gwentInterface extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel5 = new javax.swing.JPanel();
         startButton = new javax.swing.JButton();
-        jPanel1 = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
-        Player1Name = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
+        jogador2Nome = new javax.swing.JLabel();
+        jogador1Nome = new javax.swing.JLabel();
+        p1DeckCards = new javax.swing.JLabel();
+        p2DeckCards = new javax.swing.JLabel();
+        p2longas = new javax.swing.JLabel();
+        p2Hp = new javax.swing.JLabel();
+        p1Hp = new javax.swing.JLabel();
+        p1medias = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
         jSeparator2 = new javax.swing.JSeparator();
         jSeparator3 = new javax.swing.JSeparator();
@@ -74,10 +75,10 @@ public class gwentInterface extends javax.swing.JFrame {
         p2l2 = new javax.swing.JButton();
         p2l1 = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
+        p2curtas = new javax.swing.JLabel();
+        p1curtas = new javax.swing.JLabel();
+        p2medias = new javax.swing.JLabel();
+        p1longas = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         m2 = new javax.swing.JButton();
         m1 = new javax.swing.JButton();
@@ -118,48 +119,68 @@ public class gwentInterface extends javax.swing.JFrame {
         p1l2 = new javax.swing.JButton();
         p1l6 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
+        p1m9 = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        dialogoTurno = new javax.swing.JLabel();
+        dialogoJogador = new javax.swing.JLabel();
+        jSeparator5 = new javax.swing.JSeparator();
+        jLabel1 = new javax.swing.JLabel();
+        especialCard = new javax.swing.JButton();
+        p1CemiteryCards = new javax.swing.JLabel();
+        p2CemiteryCards = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jLabel18 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        startButton.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        startButton.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
         startButton.setText("Start Game");
         startButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 startButtonActionPerformed(evt);
             }
         });
+        jPanel5.add(startButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 550, 230, 80));
 
-        jPanel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jPanel1.setLayout(null);
+        jogador2Nome.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jogador2Nome.setText("Jogador 2");
+        jPanel5.add(jogador2Nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 460, 90, -1));
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel1.setText("Player 2");
+        jogador1Nome.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jogador1Nome.setText("Jogador 1");
+        jPanel5.add(jogador1Nome, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 770, 100, -1));
 
-        Player1Name.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        Player1Name.setText("Player1");
+        p1DeckCards.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        p1DeckCards.setText("20");
+        jPanel5.add(p1DeckCards, new org.netbeans.lib.awtextra.AbsoluteConstraints(1760, 900, -1, -1));
 
-        jLabel4.setText("Descrition 2");
+        p2DeckCards.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        p2DeckCards.setText("20");
+        jPanel5.add(p2DeckCards, new org.netbeans.lib.awtextra.AbsoluteConstraints(1750, 190, -1, -1));
 
-        jLabel5.setText("Description 2");
+        p2longas.setFont(new java.awt.Font("Tempus Sans ITC", 2, 18)); // NOI18N
+        p2longas.setText("0");
+        jPanel5.add(p2longas, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 135, 20, 20));
 
-        jLabel6.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel6.setText("20");
+        p2Hp.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        p2Hp.setText("20");
+        jPanel5.add(p2Hp, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, -1, -1));
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel8.setText("20");
+        p1Hp.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        p1Hp.setText("20");
+        jPanel5.add(p1Hp, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 710, -1, -1));
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel9.setText("0");
-
-        jLabel10.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel10.setText("20");
-
-        jLabel11.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel11.setText("20");
-
-        jLabel13.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel13.setText("0");
+        p1medias.setFont(new java.awt.Font("Tempus Sans ITC", 2, 18)); // NOI18N
+        p1medias.setText("0");
+        jPanel5.add(p1medias, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 620, 20, 20));
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -289,65 +310,123 @@ public class gwentInterface extends javax.swing.JFrame {
         jPanel9.add(jLabel2);
         jLabel2.setBounds(0, 0, 1030, 340);
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel15.setText("0");
+        jPanel5.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 60, 1023, 340));
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel14.setText("0");
+        p2curtas.setFont(new java.awt.Font("Tempus Sans ITC", 2, 18)); // NOI18N
+        p2curtas.setText("0");
+        jPanel5.add(p2curtas, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 380, 20, 20));
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel16.setText("0");
+        p1curtas.setFont(new java.awt.Font("Tempus Sans ITC", 2, 18)); // NOI18N
+        p1curtas.setText("0");
+        jPanel5.add(p1curtas, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, 20, 20));
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
-        jLabel12.setText("0");
+        p2medias.setFont(new java.awt.Font("Tempus Sans ITC", 2, 18)); // NOI18N
+        p2medias.setText("0");
+        jPanel5.add(p2medias, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 260, 20, 20));
+
+        p1longas.setFont(new java.awt.Font("Tempus Sans ITC", 2, 18)); // NOI18N
+        p1longas.setText("0");
+        jPanel5.add(p1longas, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 740, 20, 20));
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel4.setLayout(null);
 
         m2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m2ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m2);
         m2.setBounds(160, 0, 110, 110);
 
         m1.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m1ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m1);
         m1.setBounds(40, 0, 110, 110);
 
         m4.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m4ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m4);
         m4.setBounds(400, 0, 110, 110);
 
         m3.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m3ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m3);
         m3.setBounds(280, 0, 110, 110);
 
         m7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m7ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m7);
         m7.setBounds(760, 0, 110, 110);
 
         m8.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m8ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m8);
         m8.setBounds(880, 0, 110, 110);
 
         m6.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m6ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m6);
         m6.setBounds(640, 0, 110, 110);
 
         m5.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m5ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m5);
         m5.setBounds(520, 0, 110, 110);
 
         m10.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m10ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m10);
         m10.setBounds(1120, 0, 110, 110);
 
         m9.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        m9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                m9ActionPerformed(evt);
+            }
+        });
         jPanel4.add(m9);
         m9.setBounds(1000, 0, 110, 110);
 
         jLabel17.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\maoBackground.png")); // NOI18N
         jPanel4.add(jLabel17);
-        jLabel17.setBounds(0, -10, 1250, 140);
+        jLabel17.setBounds(0, 0, 1250, 140);
+
+        jPanel5.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 820, 1250, 130));
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setLayout(null);
@@ -357,6 +436,11 @@ public class gwentInterface extends javax.swing.JFrame {
         jSeparator4.setBounds(0, 220, 1020, 10);
 
         p1c2.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p1c2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p1c2ActionPerformed(evt);
+            }
+        });
         jPanel2.add(p1c2);
         p1c2.setBounds(160, 0, 110, 110);
 
@@ -471,137 +555,87 @@ public class gwentInterface extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(0, 0, 1030, 340);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
+        p1m9.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        p1m9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                p1m9ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(p1m9);
+        p1m9.setBounds(880, 110, 110, 110);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(310, 310, 310)
-                .addComponent(jLabel10)
-                .addGap(140, 140, 140)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(198, 198, 198)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 1023, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(39, 39, 39)
-                .addComponent(jLabel8))
-            .addGroup(layout.createSequentialGroup()
-                .addGap(460, 460, 460)
-                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(50, 50, 50)
-                .addComponent(jLabel6))
-            .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 1910, javax.swing.GroupLayout.PREFERRED_SIZE)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(260, 260, 260)
-                                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(260, 260, 260)
-                                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(300, 300, 300)
-                                        .addComponent(jLabel11))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(250, 250, 250)
-                                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(90, 90, 90))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(83, 83, 83)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(250, 250, 250)
-                        .addComponent(Player1Name, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(198, 198, 198)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 1021, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(10, 10, 10)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(70, 70, 70)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(300, 300, 300)
-                                .addComponent(jLabel10))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(50, 50, 50)
-                                .addComponent(jLabel9)
-                                .addGap(100, 100, 100)
-                                .addComponent(jLabel16)
-                                .addGap(100, 100, 100)
-                                .addComponent(jLabel15))
-                            .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(100, 100, 100)
-                                .addComponent(jLabel8)))
-                        .addGap(30, 30, 30)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(50, 50, 50)
-                                .addComponent(jLabel14)
-                                .addGap(90, 90, 90)
-                                .addComponent(jLabel13)
-                                .addGap(100, 100, 100)
-                                .addComponent(jLabel12))
-                            .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 340, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addGap(0, 0, 0)
-                                .addComponent(jLabel4)
-                                .addGap(50, 50, 50)
-                                .addComponent(startButton, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(80, 80, 80)
-                                        .addComponent(jLabel11)
-                                        .addGap(60, 60, 60)
-                                        .addComponent(jLabel5))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(140, 140, 140)
-                                        .addComponent(Player1Name)))))
-                        .addGap(10, 10, 10)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(80, 80, 80)
-                                .addComponent(jLabel6))))
-                    .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 990, javax.swing.GroupLayout.PREFERRED_SIZE)))
-        );
+        jPanel5.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 430, 1021, 340));
+
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel3.setLayout(null);
+
+        dialogoTurno.setBackground(new java.awt.Color(204, 204, 204));
+        dialogoTurno.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jPanel3.add(dialogoTurno);
+        dialogoTurno.setBounds(150, 30, 80, 60);
+
+        dialogoJogador.setBackground(new java.awt.Color(204, 204, 204));
+        dialogoJogador.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jPanel3.add(dialogoJogador);
+        dialogoJogador.setBounds(10, 10, 100, 90);
+
+        jSeparator5.setOrientation(javax.swing.SwingConstants.VERTICAL);
+        jPanel3.add(jSeparator5);
+        jSeparator5.setBounds(120, 0, 10, 110);
+
+        jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        jLabel1.setText("Turno:");
+        jPanel3.add(jLabel1);
+        jLabel1.setBounds(150, 0, 70, 25);
+
+        jPanel5.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 80, 260, 110));
+
+        especialCard.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\emptyCard.png")); // NOI18N
+        jPanel5.add(especialCard, new org.netbeans.lib.awtextra.AbsoluteConstraints(1720, 480, 100, 110));
+
+        p1CemiteryCards.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        p1CemiteryCards.setText("0");
+        jPanel5.add(p1CemiteryCards, new org.netbeans.lib.awtextra.AbsoluteConstraints(1760, 760, -1, -1));
+
+        p2CemiteryCards.setFont(new java.awt.Font("Tempus Sans ITC", 1, 18)); // NOI18N
+        p2CemiteryCards.setText("0");
+        jPanel5.add(p2CemiteryCards, new org.netbeans.lib.awtextra.AbsoluteConstraints(1750, 330, -1, -1));
+
+        jButton1.setText("jButton1");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanel5.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 310, -1, -1));
+
+        jLabel18.setIcon(new javax.swing.ImageIcon("C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images\\gameBackground.png")); // NOI18N
+        jPanel5.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 20, 1910, 990));
+
+        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1930, 990));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
         jogo.iniciaJogo();
+        
+        jogo.jogador1.getCampo().removeTodasCartasDoCampo();
+        jogo.jogador2.getCampo().removeTodasCartasDoCampo();
        
-        m1.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(0).getBackgroung());
-        m2.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(1).getBackgroung());
-        m3.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(2).getBackgroung());
-        m4.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(3).getBackgroung());
-        m5.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(4).getBackgroung());
-        m6.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(5).getBackgroung());;        
-        m7.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(6).getBackgroung());
-        m8.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(7).getBackgroung());
-        m9.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(8).getBackgroung());
-        m10.setIcon((Icon)jogo.jogador1.getMao().getCartasMao().get(9).getBackgroung());
+         atualizaMaoEntreJogadores();
+        
+        for (Component component : jPanel4.getComponents()){
+            if(component instanceof JButton){
+                component.setVisible(true);
+            }            
+        }
+        
+        dialogoJogador.setText(jogo.jogadorDaVez.getNome());
+        //startButton.setEnabled(false);
+        //startButton.setVisible(false);
+        
         
         
 
@@ -637,6 +671,166 @@ public class gwentInterface extends javax.swing.JFrame {
     private void p2l1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p2l1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_p2l1ActionPerformed
+
+    private void m1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m1ActionPerformed
+        setNullCard(m1);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(0));        
+        atualizaCampos();
+    }//GEN-LAST:event_m1ActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+        for (Component component : jPanel2.getComponents()){
+            if(component instanceof JButton){
+                component.setVisible(false);
+            }            
+        }
+        
+        for (Component component : jPanel9.getComponents()){
+            if(component instanceof JButton){
+                component.setVisible(false);
+            }            
+        }
+        
+        for (Component component : jPanel4.getComponents()){
+            if(component instanceof JButton){
+                component.setVisible(false);
+            }            
+        }
+       
+        //adicionando botoes ao array de botoes
+        // curtas player 1
+        cartasP1curto.add(p1c1);
+        cartasP1curto.add(p1c2);
+        cartasP1curto.add(p1c3);
+        cartasP1curto.add(p1c4);
+        cartasP1curto.add(p1c5);
+        cartasP1curto.add(p1c6);
+        cartasP1curto.add(p1c7);
+        cartasP1curto.add(p1c8);
+        // curtas player 2
+        cartasP2curto.add(p2c1);
+        cartasP2curto.add(p2c2);
+        cartasP2curto.add(p2c3);
+        cartasP2curto.add(p2c4);
+        cartasP2curto.add(p2c5);
+        cartasP2curto.add(p2c6);
+        cartasP2curto.add(p2c7);
+        cartasP2curto.add(p2c8);
+        
+        // medio player 1
+        cartasP1medio.add(p1m1);
+        cartasP1medio.add(p1m2);
+        cartasP1medio.add(p1m3);
+        cartasP1medio.add(p1m4);
+        cartasP1medio.add(p1m5);
+        cartasP1medio.add(p1m6);
+        cartasP1medio.add(p1m7);
+        cartasP1medio.add(p1m8);
+          // medio player 2
+        cartasP2medio.add(p2m1);
+        cartasP2medio.add(p2m2);
+        cartasP2medio.add(p2m3);
+        cartasP2medio.add(p2m4);
+        cartasP2medio.add(p2m5);
+        cartasP2medio.add(p2m6);
+        cartasP2medio.add(p2m7);
+        cartasP2medio.add(p2m8);
+        
+        //longo player 1
+        cartasP1longo.add(p1l1);
+        cartasP1longo.add(p1l2);
+        cartasP1longo.add(p1l3);
+        cartasP1longo.add(p1l4);
+        cartasP1longo.add(p1l5);
+        cartasP1longo.add(p1l6);
+        cartasP1longo.add(p1l7);
+        cartasP1longo.add(p1l8);
+        //longo player 2
+        cartasP2longo.add(p2l1);
+        cartasP2longo.add(p2l2);
+        cartasP2longo.add(p2l3);
+        cartasP2longo.add(p2l4);
+        cartasP2longo.add(p2l5);
+        cartasP2longo.add(p2l6);
+        cartasP2longo.add(p2l7);
+        cartasP2longo.add(p2l8);
+        
+        //especial -- ambos controlam o mesmo local da carta
+        cartaP1Esp.add(especialCard);
+        cartaP2Esp.add(especialCard);
+       
+        
+        p2c1.setVisible(false);
+    }//GEN-LAST:event_formWindowOpened
+
+    private void p1c2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1c2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p1c2ActionPerformed
+
+    private void m2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m2ActionPerformed
+        setNullCard(m2);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(1));        
+        atualizaCampos();
+    }//GEN-LAST:event_m2ActionPerformed
+
+    private void m3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m3ActionPerformed
+        setNullCard(m3);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(2));        
+        atualizaCampos();
+    }//GEN-LAST:event_m3ActionPerformed
+
+    private void m4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m4ActionPerformed
+        setNullCard(m4);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(3));        
+        atualizaCampos();
+    }//GEN-LAST:event_m4ActionPerformed
+
+    private void m5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m5ActionPerformed
+        setNullCard(m5);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(4));        
+        atualizaCampos();
+    }//GEN-LAST:event_m5ActionPerformed
+
+    private void m6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m6ActionPerformed
+        setNullCard(m6);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(5));        
+        atualizaCampos();
+    }//GEN-LAST:event_m6ActionPerformed
+
+    private void m7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m7ActionPerformed
+        setNullCard(m7);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(6));        
+        atualizaCampos();
+    }//GEN-LAST:event_m7ActionPerformed
+
+    private void m8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m8ActionPerformed
+        setNullCard(m8);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(7));        
+        atualizaCampos();
+    }//GEN-LAST:event_m8ActionPerformed
+
+    private void m9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m9ActionPerformed
+        setNullCard(m9);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(8));        
+        atualizaCampos();
+    }//GEN-LAST:event_m9ActionPerformed
+
+    private void m10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_m10ActionPerformed
+        setNullCard(m10);
+        jogo.jogadorDaVez.getCampo().adicionaCarta(jogo.jogadorDaVez.getMao().getCartasMao().get(9));        
+        atualizaCampos();
+    }//GEN-LAST:event_m10ActionPerformed
+
+    private void p1m9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_p1m9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_p1m9ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        jogo.passaVez();
+        atualizaMaoEntreJogadores();
+        dialogoJogador.setText(jogo.jogadorDaVez.getNome());
+        dialogoTurno.setText(String.valueOf(jogo.turnos));
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -676,32 +870,27 @@ public class gwentInterface extends javax.swing.JFrame {
   
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Player1Name;
+    private javax.swing.JLabel dialogoJogador;
+    private javax.swing.JLabel dialogoTurno;
+    private javax.swing.JButton especialCard;
+    private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSeparator jSeparator3;
     private javax.swing.JSeparator jSeparator4;
+    private javax.swing.JSeparator jSeparator5;
+    private javax.swing.JLabel jogador1Nome;
+    private javax.swing.JLabel jogador2Nome;
     private javax.swing.JButton m1;
     private javax.swing.JButton m10;
     private javax.swing.JButton m2;
@@ -712,6 +901,9 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton m7;
     private javax.swing.JButton m8;
     private javax.swing.JButton m9;
+    private javax.swing.JLabel p1CemiteryCards;
+    private javax.swing.JLabel p1DeckCards;
+    private javax.swing.JLabel p1Hp;
     private javax.swing.JButton p1c1;
     private javax.swing.JButton p1c2;
     private javax.swing.JButton p1c3;
@@ -720,6 +912,7 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton p1c6;
     private javax.swing.JButton p1c7;
     private javax.swing.JButton p1c8;
+    private javax.swing.JLabel p1curtas;
     private javax.swing.JButton p1l1;
     private javax.swing.JButton p1l2;
     private javax.swing.JButton p1l3;
@@ -728,6 +921,7 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton p1l6;
     private javax.swing.JButton p1l7;
     private javax.swing.JButton p1l8;
+    private javax.swing.JLabel p1longas;
     private javax.swing.JButton p1m1;
     private javax.swing.JButton p1m2;
     private javax.swing.JButton p1m3;
@@ -736,6 +930,11 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton p1m6;
     private javax.swing.JButton p1m7;
     private javax.swing.JButton p1m8;
+    private javax.swing.JButton p1m9;
+    private javax.swing.JLabel p1medias;
+    private javax.swing.JLabel p2CemiteryCards;
+    private javax.swing.JLabel p2DeckCards;
+    private javax.swing.JLabel p2Hp;
     private javax.swing.JButton p2c1;
     private javax.swing.JButton p2c2;
     private javax.swing.JButton p2c3;
@@ -744,6 +943,7 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton p2c6;
     private javax.swing.JButton p2c7;
     private javax.swing.JButton p2c8;
+    private javax.swing.JLabel p2curtas;
     private javax.swing.JButton p2l1;
     private javax.swing.JButton p2l2;
     private javax.swing.JButton p2l3;
@@ -752,6 +952,7 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton p2l6;
     private javax.swing.JButton p2l7;
     private javax.swing.JButton p2l8;
+    private javax.swing.JLabel p2longas;
     private javax.swing.JButton p2m1;
     private javax.swing.JButton p2m2;
     private javax.swing.JButton p2m3;
@@ -760,9 +961,81 @@ public class gwentInterface extends javax.swing.JFrame {
     private javax.swing.JButton p2m6;
     private javax.swing.JButton p2m7;
     private javax.swing.JButton p2m8;
+    private javax.swing.JLabel p2medias;
     private javax.swing.JButton startButton;
     // End of variables declaration//GEN-END:variables
+private void setNullCard(JButton pictureButton){
+        String init= "C:\\Users\\vitor\\Documents\\NetBeansProjects\\orientacao-objeto-gwent\\orientacao-objeto-gwent\\gwentGame\\src\\main\\java\\images";
+        String path = init.concat("emptyCard").concat(".png");
+        ImageIcon imageicon = new ImageIcon(path);
+        Image nullImage = imageicon.getImage().getScaledInstance(imageicon.getIconHeight(), imageicon.getIconWidth(), Image.SCALE_DEFAULT);
+        imageicon.setImage(nullImage);
+        pictureButton.setIcon((Icon) imageicon);
+}
+private void atualizaMaoEntreJogadores(){
+        m1.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(0).getBackgroung());
+        m2.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(1).getBackgroung());
+        m3.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(2).getBackgroung());
+        m4.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(3).getBackgroung());
+        m5.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(4).getBackgroung());
+        m6.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(5).getBackgroung());;        
+        m7.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(6).getBackgroung());
+        m8.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(7).getBackgroung());
+        m9.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(8).getBackgroung());
+        m10.setIcon((Icon)jogo.jogadorDaVez.getMao().getCartasMao().get(9).getBackgroung());
+}
 
+private void atualizaCampos(){
+        //atualiza campo curto
+        for(int i=0; i< jogo.jogador1.getCampo().getContainerCartasCurto().size(); i++){
+            cartasP1curto.get(i).setIcon((Icon)jogo.jogador1.getCampo().getContainerCartasCurto().get(i).getBackgroung());
+            cartasP1curto.get(i).setVisible(true);
+        }        
+        p1curtas.setText(String.valueOf(jogo.jogador1.getCampo().getContainerCartasCurto().size()));
+    
+        for(int i=0; i< jogo.jogador2.getCampo().getContainerCartasCurto().size(); i++){
+            cartasP2curto.get(i).setIcon((Icon)jogo.jogador2.getCampo().getContainerCartasCurto().get(i).getBackgroung());
+            cartasP2curto.get(i).setVisible(true);
+        }
+        p2curtas.setText(String.valueOf(jogo.jogador2.getCampo().getContainerCartasCurto().size()));
+        
+        //atualiza campo medio
+        for(int i=0; i< jogo.jogador1.getCampo().getContainerCartasMedio().size(); i++){
+            cartasP1medio.get(i).setIcon((Icon)jogo.jogador1.getCampo().getContainerCartasMedio().get(i).getBackgroung());
+            cartasP1medio.get(i).setVisible(true);
+        }
+        p1medias.setText(String.valueOf(jogo.jogador1.getCampo().getContainerCartasMedio().size()));
+        
+        for(int i=0; i< jogo.jogador2.getCampo().getContainerCartasMedio().size(); i++){
+            cartasP2medio.get(i).setIcon((Icon)jogo.jogador2.getCampo().getContainerCartasMedio().get(i).getBackgroung());
+            cartasP2medio.get(i).setVisible(true);
+        }
+        p2medias.setText(String.valueOf(jogo.jogador2.getCampo().getContainerCartasMedio().size()));
+        
+        //atualiza campo longo
+        for(int i=0; i< jogo.jogador1.getCampo().getContainerCartasLongo().size(); i++){
+            cartasP1longo.get(i).setIcon((Icon)jogo.jogador1.getCampo().getContainerCartasLongo().get(i).getBackgroung());
+            cartasP1longo.get(i).setVisible(true);
+        }
+        p1longas.setText(String.valueOf(jogo.jogador1.getCampo().getContainerCartasLongo().size()));
+        
+        for(int i=0; i< jogo.jogador2.getCampo().getContainerCartasLongo().size(); i++){
+            cartasP2longo.get(i).setIcon((Icon)jogo.jogador2.getCampo().getContainerCartasLongo().get(i).getBackgroung());
+            cartasP2longo.get(i).setVisible(true);
+        }
+        p2longas.setText(String.valueOf(jogo.jogador2.getCampo().getContainerCartasLongo().size()));
+        
+        //atualiza Especial
+        for(int i=0; i< jogo.jogador1.getCampo().getContainerCartaEspecial().size(); i++){
+            especialCard.setIcon((Icon)jogo.jogador1.getCampo().getContainerCartaEspecial().get(i).getBackgroung());
+            especialCard.setVisible(true);
+        }
+        
+        for(int i=0; i< jogo.jogador2.getCampo().getContainerCartaEspecial().size(); i++){
+            especialCard.setIcon((Icon)jogo.jogador2.getCampo().getContainerCartaEspecial().get(i).getBackgroung());
+            especialCard.setVisible(true);
+        }
+} 
 }
 
 

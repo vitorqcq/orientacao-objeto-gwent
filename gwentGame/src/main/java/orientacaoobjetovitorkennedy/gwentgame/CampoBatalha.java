@@ -2,43 +2,65 @@ package orientacaoobjetovitorkennedy.gwentgame;
 
 import java.util.ArrayList;
 
-public class CampoBatalha extends Jogo{
+public class CampoBatalha{
 
     private ArrayList<Carta> listaCartasCampo = new ArrayList<>();
     private ArrayList<Carta> containerCartasCurto = new ArrayList<>();
     private ArrayList<Carta> containerCartasMedio = new ArrayList<>();
     private ArrayList<Carta> containerCartasLongo = new ArrayList<>();
     private ArrayList<Carta> containerCartaEspecial = new ArrayList<>();
-
+    
+    
     //numero máximo de cada container de cartas é 
     private int maximoCartas = 8;
 
     public ArrayList<Carta> getCartasCampo() {
         return listaCartasCampo;
     }
+
+    public ArrayList<Carta> getContainerCartaEspecial() {
+        return containerCartaEspecial;
+    }
+
+    public ArrayList<Carta> getContainerCartasCurto() {
+        return containerCartasCurto;
+    }
+
+    public ArrayList<Carta> getContainerCartasLongo() {
+        return containerCartasLongo;
+    }
+
+    public ArrayList<Carta> getContainerCartasMedio() {
+        return containerCartasMedio;
+    }
+    
 // -----------------------------ADICIONA -----------------------------------------
 
     private void addCartaCurto(Carta card) {
-        containerCartasCurto.add(card);
-        listaCartasCampo.add(card);
+        this.containerCartasCurto.add(card);
+        this.listaCartasCampo.add(card);
+       
         System.out.println("Carta adicionada");
     }
 
     private void addCartaMedio(Carta card) {
         containerCartasMedio.add(card);
         listaCartasCampo.add(card);
+        
         System.out.println("Carta adicionada");
     }
 
     private void addCartaLongo(Carta card) {
         containerCartasLongo.add(card);
         listaCartasCampo.add(card);
+        
         System.out.println("Carta adicionada");
     }
 
     private void addCartaEspecial(Carta card) {
         containerCartaEspecial.add(card);
         listaCartasCampo.add(card);
+        
         System.out.println("Carta adicionada");
     }
 
@@ -69,6 +91,7 @@ public class CampoBatalha extends Jogo{
 
     // ------------------ método para adicionar ----------------------------------
     public void adicionaCarta(Carta card) {
+        
         int cardTipo = card.getTipo();
         switch (cardTipo) {
             case 1:
