@@ -2,17 +2,19 @@ package orientacaoobjetovitorkennedy.gwentgame;
 
 import java.util.ArrayList;
 
-public class CampoBatalha{
+public class CampoBatalha {
 
     private ArrayList<Carta> listaCartasCampo = new ArrayList<>();
     private ArrayList<Carta> containerCartasCurto = new ArrayList<>();
     private ArrayList<Carta> containerCartasMedio = new ArrayList<>();
     private ArrayList<Carta> containerCartasLongo = new ArrayList<>();
     private ArrayList<Carta> containerCartaEspecial = new ArrayList<>();
-    
-    
+
     //numero máximo de cada container de cartas é 
     private int maximoCartas = 8;
+
+    //Mensagem enviada para usuário
+    String mensagem = "";
 
     public ArrayList<Carta> getCartasCampo() {
         return listaCartasCampo;
@@ -33,34 +35,48 @@ public class CampoBatalha{
     public ArrayList<Carta> getContainerCartasMedio() {
         return containerCartasMedio;
     }
-    
-// -----------------------------ADICIONA -----------------------------------------
 
+    public ArrayList<Carta> getContainerDaCarta(int tipo) {
+        ArrayList<Carta> containerDaCarta = new ArrayList<>();
+        if (tipo == 1) {
+            containerDaCarta = getContainerCartasCurto();
+        } else if (tipo == 2) {
+            containerDaCarta = getContainerCartasMedio();
+        } else if (tipo == 3) {
+            containerDaCarta = getContainerCartasLongo();
+        } else if (tipo == 4) {
+            containerDaCarta = getContainerCartaEspecial();
+        }
+
+        return containerDaCarta;
+    }
+
+// -----------------------------ADICIONA -----------------------------------------
     private void addCartaCurto(Carta card) {
         this.containerCartasCurto.add(card);
         this.listaCartasCampo.add(card);
-       
+
         System.out.println("Carta adicionada");
     }
 
     private void addCartaMedio(Carta card) {
         containerCartasMedio.add(card);
         listaCartasCampo.add(card);
-        
+
         System.out.println("Carta adicionada");
     }
 
     private void addCartaLongo(Carta card) {
         containerCartasLongo.add(card);
         listaCartasCampo.add(card);
-        
+
         System.out.println("Carta adicionada");
     }
 
     private void addCartaEspecial(Carta card) {
         containerCartaEspecial.add(card);
         listaCartasCampo.add(card);
-        
+
         System.out.println("Carta adicionada");
     }
 
@@ -90,38 +106,67 @@ public class CampoBatalha{
     }
 
     // ------------------ método para adicionar ----------------------------------
-    public void adicionaCarta(Carta card) {
-        
+    public Mao adicionaCarta(Carta card, int turnos, Mao mao, int index, Carta whiteCard) {
+
         int cardTipo = card.getTipo();
         switch (cardTipo) {
             case 1:
                 if (containerCartasCurto.size() < maximoCartas) {
-                    addCartaCurto(card);
+                    if (containerCartasCurto.size() < turnos) {
+                        addCartaCurto(card);
+                        mensagem = ("Carta curta adicionada");
+                        mao.retiraMao(index, whiteCard);
+                    } else {
+                        mensagem = "Você não pode colocar mais cartas neste campo";
+                    }
                 } else {
-                    System.out.println("Container curto cheio");
-                }   break;
+                    mensagem = "Container curto cheio";
+                }
+                break;
             case 2:
                 if (containerCartasMedio.size() < maximoCartas) {
-                    addCartaMedio(card);
+                    if (containerCartasMedio.size() < turnos) {
+                        addCartaMedio(card);
+                        mensagem = ("Carta media adicionada");
+                        mao.retiraMao(index, whiteCard);
+                    } else {
+                        mensagem = "Você não pode colocar mais cartas neste campo";
+                    }
                 } else {
-                    System.out.println("Container medio cheio");
-                }   break;
+                    mensagem = ("Container medio cheio");
+                }
+                break;
             case 3:
                 if (containerCartasLongo.size() < maximoCartas) {
-                    addCartaLongo(card);
+                    if (containerCartasLongo.size() < turnos) {
+                        addCartaLongo(card);
+                        mensagem = ("Carta longa adicionada");
+                        mao.retiraMao(index, whiteCard);
+                    } else {
+                        mensagem = "Você não pode colocar mais carta neste campo";
+                    }
                 } else {
-                    System.out.println("Container longo cheio");
-                }   break;
+                    mensagem = ("Container longo cheio");
+                }
+                break;
             case 4:
-                if (containerCartaEspecial.size() < 1) {
-                    addCartaEspecial(card);
-                } else {
-                    System.out.println("Container especial cheio");
-                }   break;
+                        if (containerCartaEspecial.size() < turnos) {
+                        addCartaEspecial(card);
+                        mensagem = ("Carta especial adicionada");
+                        mao.retiraMao(index, whiteCard);
+                    } else {
+                        mensagem = "Você não pode colocar mais carta neste campo";
+                    }
+                
+                break;
+            case 5:
+                    mensagem ="Não é uma carta";
+                break;
             default:
-                System.out.println("o tipo da carta não foi reconhecido");
+                mensagem = ("o tipo da carta não foi reconhecido");
                 break;
         }
+        return mao;
     }
     // ------------------ FIM método para adicionar ------------------------------
 
@@ -133,37 +178,38 @@ public class CampoBatalha{
                 if (containerCartasCurto.contains(card)) {
                     RemoveCartaCurto(card);
                 } else {
-                    System.out.println("a carta não está no campo");
+                    mensagem = ("a carta não está no campo");
                 }
                 break;
             case 2:
                 if (containerCartasMedio.contains(card)) {
                     RemoveCartaMedio(card);
                 } else {
-                    System.out.println("a carta não está no campo");
+                    mensagem = ("a carta não está no campo");
                 }
                 break;
             case 3:
                 if (containerCartasLongo.contains(card)) {
                     RemoveCartaLongo(card);
                 } else {
-                    System.out.println("a carta não está no campo");
+                    mensagem = ("a carta não está no campo");
                 }
                 break;
             case 4:
                 if (containerCartaEspecial.contains(card)) {
                     RemoveCartaEspecial(card);
                 } else {
-                    System.out.println("a carta não está no campo");
+                    mensagem = ("a carta não está no campo");
                 }
                 break;
             default:
-                System.out.println("o tipo da carta não foi reconhecido");
+                mensagem = ("o tipo da carta não foi reconhecido");
                 break;
         }
     }
+
     //-------------Remove todas as cartas do campo -------------------------------
-    public void removeTodasCartasDoCampo(){
+    public void removeTodasCartasDoCampo() {
         listaCartasCampo.removeAll(listaCartasCampo);
         containerCartasCurto.removeAll(containerCartasCurto);
         containerCartasMedio.removeAll(containerCartasMedio);

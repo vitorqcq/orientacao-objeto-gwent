@@ -26,9 +26,10 @@ public class Mao {
         numCartas++;
     }
     
-    public void retiraMao(Carta card)
+    public void retiraMao(int index, Carta whiteCard)
     {
-        listaCartasMao.remove(card);
+        listaCartasMao.remove(index);
+        listaCartasMao.add(index, whiteCard);
         numCartas--;        
     }
     

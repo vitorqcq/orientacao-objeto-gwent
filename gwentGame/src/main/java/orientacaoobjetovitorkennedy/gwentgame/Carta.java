@@ -2,14 +2,17 @@
 package orientacaoobjetovitorkennedy.gwentgame;
 
 import javax.swing.ImageIcon;
+import javax.swing.JButton;
 
 
 public class Carta {
     private String id;
-    private int tipo; // 1 = curto , 2 = medio , 3 = lonog , 4 = especial
-    int poder;
+    private int tipo; // 1 = curto , 2 = medio , 3 = lonog , 4 = especial , 5 = em branco
+    private double poder;
+    private JButton button = new JButton();
     private ImageIcon background;
     private String descricao;
+    public boolean efeitoEspecial = false;
     
  
     public String getId() {
@@ -20,7 +23,15 @@ public class Carta {
         this.id = id;
     }
 
+    public JButton getButton() {
+        return button;
+    }
 
+    public void setButton(JButton button) {
+        this.button = button;
+    }
+    
+    
     public int getTipo() {
         return tipo;
     }
@@ -36,7 +47,7 @@ public class Carta {
         this.background = bg;
     }
     
-    public int getPoder(){
+    public double getPoder(){
         return this.poder;
     }
     
