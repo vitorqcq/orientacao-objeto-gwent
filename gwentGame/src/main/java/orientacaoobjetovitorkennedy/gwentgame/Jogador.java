@@ -9,10 +9,12 @@ public class Jogador {
     private Cemiterio cemiterio =  new Cemiterio();
     private int turnos;
     private boolean turno;
-    private int hp;
+    private double hp;
     private CampoBatalha campo =  new CampoBatalha();
+    private int ataquesNesteTurno;
+    
 
-    public int getHp() {
+    public double getHp() {
         return this.hp;
     }
 
@@ -75,5 +77,15 @@ public class Jogador {
     public void setTurno(boolean turno) {
         this.turno = turno;
     }
+
+    public int getAtaquesNesteTurno() {
+        return ataquesNesteTurno;
+    }
+
+    public void setAtaquesNesteTurno(int ataquesNesteTurno) {
+        this.ataquesNesteTurno = ataquesNesteTurno;
+    }
+    
+    
   
 }
